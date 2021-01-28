@@ -64,6 +64,7 @@
 
 .about-us {
     background-color: #BEEE62;
+    padding: 30px;
 }
 
 .about-us h2 {
@@ -73,7 +74,7 @@
     font-weight: 700;
     text-align: center;
     letter-spacing: 3px;
-    padding: 40px;
+    padding: 20px 0;
 }
 
 .about-us h3 {
@@ -101,7 +102,35 @@
     display: block;
     text-align: center;
     letter-spacing: 1px;
-    padding: 0 40px 40px 40px;
+    padding: 0 20px 20px 20px;
+}
+
+/*----------------------------------------------------- Testimonials -----*/
+
+.testimonials {
+    background-color: #113CF3;
+    padding: 40px;
+}
+
+.testimonials h2 {
+    color: #BEEE62;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 20px 0;
+}
+
+.testimonials p {
+    color: #fff;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 0;
 }
 
 /*----------------------------------------------------- Sizing -----*/
