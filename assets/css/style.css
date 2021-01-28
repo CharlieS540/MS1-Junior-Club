@@ -1,0 +1,38 @@
+/*----------------------------------------------------- Colours -----*/
+
+.navbar {
+    background-color: rgba(17, 60, 243, .75);
+}
+
+/*----------------------------------------------------- Navbar -----*/
+
+.navbar > a {
+    font-size: 30px;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    padding: 0 8px;
+    margin: 8px;
+}
+
+.navbar a {
+    color: #BEEE62;
+    font-family: "Architects Daughter", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.active {
+    border-bottom: 5px solid #BEEE62;
+}
+
+.nav-item a:hover {
+    border-bottom: 5px solid #BEEE62;
+}
+
+/*----------------------------------------------------- Sizing -----*/
+
+.row {
+    margin: 0;
+}
