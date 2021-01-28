@@ -109,7 +109,7 @@
 
 .testimonials {
     background-color: #113CF3;
-    padding: 40px;
+    padding: 30px;
 }
 
 .testimonials h2 {
@@ -131,6 +131,88 @@
     letter-spacing: 1px;
     padding: 10px;
     margin: 0;
+}
+
+/*----------------------------------------------------- Activity Schedule -----*/
+
+.activity-schedule {
+    background-color: #BEEE62;
+    padding: 30px 0;
+}
+
+.activity-schedule h2 {
+    color: #113CF3;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 20px 0;
+}
+
+.activity-schedule-icon {
+    color: #113CF3;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.activity-schedule h3 {
+    color: #113CF3;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 0;
+}
+
+.activity-schedule table {
+    background-color: #113CF3;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.activity-schedule td, .activity-schedule th {
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-top: 3px solid #BEEE62;
+    border-bottom: 3px solid #BEEE62;
+}
+
+.activity-schedule-download {
+    text-align: center;
+    padding: 20px;
+}
+
+.activity-schedule button {
+    background-color: #113CF3;
+    color: #BEEE62;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 20px;
+    border: 0;
+}
+
+.activity-schedule button:hover {
+    background-color: #BEEE62;
+    color: #113CF3;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 20px;
+    border: 0;
 }
 
 /*----------------------------------------------------- Sizing -----*/
