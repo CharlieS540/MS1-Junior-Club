@@ -31,6 +31,37 @@
     border-bottom: 5px solid #BEEE62;
 }
 
+/*----------------------------------------------------- Hero Image Section -----*/
+
+.hero-image { 
+    height: 90vh;
+    background: url(../images/hero_img1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hero-text {
+    color: #BEEE62;
+    text-align: center;
+    font-family: "Architects Daughter", sans-serif;
+    letter-spacing: 3px;
+}
+
+.hero-text h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hero-text h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 /*----------------------------------------------------- Sizing -----*/
 
 .row {
