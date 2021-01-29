@@ -274,6 +274,70 @@
     border: 0;
 }
 
+/*----------------------------------------------------- Footer -----*/
+
+footer {
+    background-color: #BEEE62;
+    text-align: center;
+}
+
+footer h3 {
+    color: #113CF3;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 12px;
+    margin: 0;
+}
+
+.footer-icon {
+    color: #113CF3;
+    display: inline-block;
+    padding: 12px;
+}
+
+footer p {
+    color: #000;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 0;
+}
+
+.social-links li a i {
+    color: #BEEE62;
+    background-color: #113CF3;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    padding: 13px;
+    margin: 10px 10px 10px 0;
+    font-size: 18px;
+}
+
+.social-links li a i:hover {
+    color: #113CF3;
+    background-color: #BEEE62;
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-links li a i:not(:hover) {
+    color: #BEEE62;
+    background-color: #113CF3;
+    transform: scale(1, 1);
+    transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    -o-transition: all 0.75s ease-in-out;
+}
+
 /*----------------------------------------------------- Sizing -----*/
 
 .row {
