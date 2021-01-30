@@ -17,19 +17,24 @@
 
 <body>
 <!-- Navbar -->
-    <nav class="navbar navbar-fluid fixed-top">
+    <nav class="navbar navbar-dark navbar-fluid fixed-top navbar-expand-sm">
         <a href="indx.html" class="text-uppercase">Junior Club</a>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link text-uppercase active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-uppercase" href="events.html">Events</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-uppercase" href="gallery.html">Gallery</a>
-            </li>
-        </ul>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
+            <span class="navbar-toggle-bars"><i class="fas fa-bars"></i></span>    
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 <!-- /.Navbar -->
 <!-- Hero Image -->

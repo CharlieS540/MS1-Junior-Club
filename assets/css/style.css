@@ -8,9 +8,9 @@
     font-size: 30px;
 }
 
-.navbar ul li a {
+nav li a {
     font-size: 18px;
-    padding: 0 8px;
+    padding: 0px 8px;
     margin: 8px;
 }
 
@@ -27,6 +27,23 @@
 
 .nav-item a:hover {
     border-bottom: 5px solid #BEEE62;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:active {
+    outline: none;
+}
+
+.navbar-toggler:not(:active) {
+    outline: none;
+}
+
+.navbar-toggle-bars {
+    color: #BEEE62;
+    font-size: 24px;
 }
 
 /*----------------------------------------------------- Hero Image Section -----*/
