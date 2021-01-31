@@ -209,6 +209,7 @@ nav li a {
     color: #fff;
     text-align: center;
     font-family: "Chicle", sans-serif;
+    font-size: 14px;
     letter-spacing: 1px;
     padding: 5px;
     border-top: 3px solid #BEEE62;
@@ -476,11 +477,125 @@ footer p {
 /*----------------------------------------------------- Media Queries -----*/
 
 @media only screen and (min-width: 576px) {
-    .hero-text h1 {
+/*----------------------------------------------------- Hero Image Section -----*/
+
+.hero-text h1 {
     font-size: 48px;
 }
 
 .hero-text h3 {
     font-size: 24px;
 }
+
+/*----------------------------------------------------- About Us Section -----*/
+
+.about-us h2 {
+    font-size: 36px;
+}
+
+.about-us h3 {
+    font-size: 24px;
+}
+
+.about-us i {
+    font-size: 24px;
+}
+
+.about-us p {
+    font-size: 18px;
+}
+
+/*----------------------------------------------------- Testimonials Section -----*/
+
+.testimonials h2 {
+    font-size: 36px;
+}
+
+.testimonials p {
+    font-size: 18px;
+}
+
+/*----------------------------------------------------- Activity Schedule Section -----*/
+
+.activity-schedule h2 {
+    font-size: 36px;
+}
+
+.activity-schedule-icon {
+    font-size: 24px;
+}
+
+.activity-schedule h3 {
+    font-size: 24px;
+}
+
+.activity-schedule td, .activity-schedule th {
+    font-size: 18px;
+}
+
+.activity-schedule button {
+    font-size: 24px;
+}
+
+.activity-schedule button:hover {
+    font-size: 24px;
+}
+
+/*----------------------------------------------------- Sign Up Section -----*/
+
+.sign-up-text h3 {
+    font-size: 24px;
+}
+
+.sign-up-text button {
+    font-size: 24px;
+    border-radius: 25px;
+}
+
+.sign-up-text button:hover {
+    font-size: 24px;
+}
+
+/*----------------------------------------------------- Footer -----*/
+
+footer h3 {
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+.social-links li a i {
+    height: 55px;
+    width: 55px;
+    font-size: 24px;
+}
+
+/*----------------------------------------------------- Sign Up Modal -----*/
+
+.modal-title {
+    font-size: 30px;
+}
+
+.modal-body p {
+    font-size: 18px;
+}
+
+.modal-body label {
+    font-size: 24px;
+}
+
+.form-group small {
+    font-size: 18px;
+}
+
+.modal-sign-up-btn button {
+    font-size: 24px;
+}
+
+.modal-sign-up-btn button:hover {
+    font-size: 24px;
+}
+
 }
