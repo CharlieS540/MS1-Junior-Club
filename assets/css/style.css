@@ -139,6 +139,18 @@ nav li a {
     padding: 20px 0;
 }
 
+.testimonials img {
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #BEEE62;
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .testimonials p {
     color: #fff;
     font-family: "Chicle", sans-serif;
