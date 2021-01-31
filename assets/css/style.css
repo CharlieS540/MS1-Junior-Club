@@ -380,6 +380,93 @@ footer p {
     -o-transition: all 0.75s ease-in-out;
 }
 
+/*----------------------------------------------------- Sign Up Modal -----*/
+
+.modal-content {
+    background-color: #113CF3;
+}
+
+.modal-header {
+    border-bottom: 3px solid #BEEE62;
+}
+
+.modal-title {
+    color: #BEEE62;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+.modal-body p {
+    color: #fff;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 0;
+}
+
+.modal-body label {
+    color: #BEEE62;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.form-group {
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.form-group small {
+    color: #fff;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.modal-sign-up-btn {
+    text-align: center;
+}
+
+.modal-sign-up-btn button {
+    background-color: #BEEE62;
+    color: #113CF3;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+}
+
+.modal-sign-up-btn button:hover {
+    background-color: #113CF3;
+    color: #BEEE62;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+}
+
 /*----------------------------------------------------- Sizing -----*/
 
 .row {
