@@ -222,24 +222,24 @@ nav li a {
 
 .activity-schedule button {
     background-color: #113CF3;
+    color: #BEEE62;
     font-size: 18px;
     border-radius: 25px;
     font-weight: 700;
     font-family: "Chicle", sans-serif;
     letter-spacing: 3px;
-    padding: 10px;
     margin: 20px;
     border: 0;
 }
 
 .activity-schedule button:hover {
+    color: #113CF3;
     background-color: #BEEE62;
     font-size: 18px;
     border-radius: 25px;
     font-weight: 700;
     font-family: "Chicle", sans-serif;
     letter-spacing: 3px;
-    padding: 10px;
     margin: 20px;
     border: 0;
 }
@@ -247,11 +247,13 @@ nav li a {
 .activity-schedule a {
     color: #BEEE62;
     text-decoration: none;
+    padding: 10px;
 }
 
 .activity-schedule a:hover {
     color: #113CF3;
     text-decoration: none;
+    padding: 10px;
 }
 
 
