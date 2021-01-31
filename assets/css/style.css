@@ -196,6 +196,8 @@ nav li a {
 .activity-schedule td, .activity-schedule th {
     color: #fff;
     text-align: center;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 1px;
     padding: 5px;
     border-top: 3px solid #BEEE62;
     border-bottom: 3px solid #BEEE62;
@@ -208,7 +210,6 @@ nav li a {
 
 .activity-schedule button {
     background-color: #113CF3;
-    color: #BEEE62;
     font-size: 18px;
     border-radius: 25px;
     font-weight: 700;
@@ -221,7 +222,6 @@ nav li a {
 
 .activity-schedule button:hover {
     background-color: #BEEE62;
-    color: #113CF3;
     font-size: 18px;
     border-radius: 25px;
     font-weight: 700;
@@ -231,6 +231,17 @@ nav li a {
     margin: 20px;
     border: 0;
 }
+
+.activity-schedule a {
+    color: #BEEE62;
+    text-decoration: none;
+}
+
+.activity-schedule a:hover {
+    color: #113CF3;
+    text-decoration: none;
+}
+
 
 /*----------------------------------------------------- Sign Up Section -----*/
 
