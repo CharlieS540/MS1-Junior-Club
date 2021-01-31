@@ -5,7 +5,7 @@
 }
 
 .navbar > a {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 nav li a {
@@ -471,4 +471,16 @@ footer p {
 
 .row {
     margin: 0;
+}
+
+/*----------------------------------------------------- Media Queries -----*/
+
+@media only screen and (min-width: 576px) {
+    .hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text h3 {
+    font-size: 24px;
+}
 }
