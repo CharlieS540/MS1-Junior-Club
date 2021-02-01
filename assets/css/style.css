@@ -568,36 +568,6 @@ footer p {
     border: 0;
 }
 
-.modal-sign-up-btn {
-    text-align: center;
-}
-
-.modal-sign-up-btn button {
-    background-color: #BEEE62;
-    color: #113CF3;
-    font-size: 18px;
-    border-radius: 25px;
-    font-weight: 700;
-    font-family: "Chicle", sans-serif;
-    letter-spacing: 3px;
-    padding: 10px;
-    margin: 10px;
-    border: 0;
-}
-
-.modal-sign-up-btn button:hover {
-    background-color: #113CF3;
-    color: #BEEE62;
-    font-size: 18px;
-    border-radius: 25px;
-    font-weight: 700;
-    font-family: "Chicle", sans-serif;
-    letter-spacing: 3px;
-    padding: 10px;
-    margin: 10px;
-    border: 0;
-}
-
 /*----------------------------------------------------- Events Listing One Section -----*/
 
 .event-one {
@@ -956,6 +926,103 @@ footer p {
     font-size: 24px;
 }
 
+/*----------------------------------------------------- events.html -----*/
+/*----------------------------------------------------- Events -----*/
+
+.events-text h1 {
+    font-size: 48px;
+}
+
+/*----------------------------------------------------- About Events Section -----*/
+
+.about-events h2 {
+    font-size: 36px;
+}
+
+.about-events p {
+    font-size: 18px;
+}
+
+.events-sign-up-text h3 {
+    font-size: 24px;
+}
+
+.events-sign-up-text button {
+    font-size: 24px;
+}
+
+.events-sign-up-text button:hover {
+    font-size: 24px;
+}
+
+/*----------------------------------------------------- Events Listing One Section -----*/
+
+.event-one h2 {
+    font-size: 36px;
+}
+
+.event-one td, .event-one th {
+    font-size: 18px;
+}
+
+.event-one p {
+    font-size: 18px;
+}
+
+.event-one h3 {
+    font-size: 24px;
+}
+
+.event-one-contact-info p {
+    font-size: 18px;
+}
+
+.event-one-contact-info a {
+    font-size: 18px;
+}
+
+.event-one-contact-info a:hover {
+    font-size: 18px;
+}
+
+.event-one-contact-info a:not(:hover) {
+    font-size: 18px;
+}
+
+/*----------------------------------------------------- Events Listing Two Section -----*/
+
+.event-two h2 {
+    font-size: 36px;
+}
+
+.event-two td, .event-two th {
+    font-size: 18px;
+}
+
+.event-two p {
+    font-size: 18px;
+}
+
+.event-two h3 {
+    font-size: 24px;
+}
+
+.event-two-contact-info p {
+    font-size: 18px;
+}
+
+.event-two-contact-info a {
+    font-size: 18px;
+}
+
+.event-two-contact-info a:hover {
+    font-size: 18px;
+}
+
+.event-two-contact-info a:not(:hover) {
+    font-size: 18px;
+}
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -966,4 +1033,4 @@ footer p {
     height: 90vh;
 }
 
-} 
+}
