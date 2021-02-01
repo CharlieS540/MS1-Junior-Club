@@ -273,11 +273,15 @@ nav li a {
     display: flex;
 }
 
-.events-sign-up-text {
+.sign-up-text {
+    background-color: rgba(17, 60, 243, .75);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 50px;
     text-align: center;
 }
 
-.events-sign-up-text h3 {
+.sign-up-text h3 {
     color: #BEEE62;
     font-family: "Architects Daughter", sans-serif;
     font-size: 18px;
@@ -288,7 +292,7 @@ nav li a {
     margin: 0;
 }
 
-.events-sign-up-text button {
+.sign-up-text button {
     background-color: #BEEE62;
     color: #113CF3;
     font-size: 18px;
@@ -301,7 +305,7 @@ nav li a {
     border: 0;
 }
 
-.events-sign-up-text button:hover {
+.sign-up-text button:hover {
     background-color: #113CF3;
     color: #BEEE62;
     font-size: 18px;
@@ -472,7 +476,7 @@ footer p {
 }
 
 
-/*----------------------------------------------------- index.html -----*/
+/*----------------------------------------------------- events.html -----*/
 /*----------------------------------------------------- Events -----*/
 
 .events-image { 
@@ -521,6 +525,47 @@ footer p {
     text-align: center;
     letter-spacing: 1px;
     padding: 0 20px 20px 20px;
+}
+
+.events-sign-up-text {
+    text-align: center;
+}
+
+.events-sign-up-text h3 {
+    color: #BEEE62;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 0;
+}
+
+.events-sign-up-text button {
+    background-color: #BEEE62;
+    color: #113CF3;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 20px;
+    border: 0;
+}
+
+.events-sign-up-text button:hover {
+    background-color: #113CF3;
+    color: #BEEE62;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 20px;
+    border: 0;
 }
 
 .modal-sign-up-btn {
