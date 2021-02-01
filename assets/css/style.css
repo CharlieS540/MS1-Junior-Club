@@ -273,15 +273,11 @@ nav li a {
     display: flex;
 }
 
-.sign-up-text {
-    background-color: rgba(17, 60, 243, .5);
+.events-sign-up-text {
     text-align: center;
-    padding: 10px;
-    max-width: 80vw;
-    border-radius: 50px;
 }
 
-.sign-up-text h3 {
+.events-sign-up-text h3 {
     color: #BEEE62;
     font-family: "Architects Daughter", sans-serif;
     font-size: 18px;
@@ -292,7 +288,7 @@ nav li a {
     margin: 0;
 }
 
-.sign-up-text button {
+.events-sign-up-text button {
     background-color: #BEEE62;
     color: #113CF3;
     font-size: 18px;
@@ -305,7 +301,7 @@ nav li a {
     border: 0;
 }
 
-.sign-up-text button:hover {
+.events-sign-up-text button:hover {
     background-color: #113CF3;
     color: #BEEE62;
     font-size: 18px;
@@ -498,6 +494,63 @@ footer p {
     text-align: center;
     font-family: "Architects Daughter", sans-serif;
     letter-spacing: 3px;
+}
+
+/*----------------------------------------------------- About Events Section -----*/
+
+.about-events {
+    background-color: #113CF3;
+    padding: 30px;
+}
+
+.about-events h2 {
+    color: #BEEE62;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 20px 0;
+}
+
+.about-events p {
+    color: #fff;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0 20px 20px 20px;
+}
+
+.modal-sign-up-btn {
+    text-align: center;
+}
+
+.modal-sign-up-btn button {
+    background-color: #BEEE62;
+    color: #113CF3;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+}
+
+.modal-sign-up-btn button:hover {
+    background-color: #113CF3;
+    color: #BEEE62;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
 }
 
 /*----------------------------------------------------- Media Queries -----*/
