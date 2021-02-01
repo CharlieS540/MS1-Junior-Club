@@ -553,6 +553,125 @@ footer p {
     border: 0;
 }
 
+/*----------------------------------------------------- Events Listing One Section -----*/
+
+.event-one {
+    background-color: #BEEE62;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.event-one h2 {
+    color: #113CF3;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 20px 0;
+}
+
+.event-one table {
+    background-color: #113CF3;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.event-one td, .event-one th {
+    color: #fff;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-top: 3px solid #BEEE62;
+    border-bottom: 3px solid #BEEE62;
+}
+
+.event-one p {
+    color: #000;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 0;
+}
+
+.event-one h3 {
+    color: #113CF3;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 0;
+}
+
+.event-one-contact-icon {
+    color: #113CF3;
+    display: inline-block;
+    padding: 12px;
+}
+
+.event-one-contact-info p {
+    color: #000;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 0;
+}
+
+.event-one-contact-info a {
+    color: #000;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 0;
+}
+
+.event-one-contact-info a:hover {
+    color: #000;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 0;
+}
+
+.event-one-contact-info a:not(:hover) {
+    color: #000;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    transform: scale(1, 1);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 0;
+}
+
+.event-one img {
+    width: 100%;
+    padding: 0 10% 10% 10%;
+}
+
+/*----------------------------------------------------- Events Listing One Section -----*/
+
 /*----------------------------------------------------- Media Queries -----*/
 
 @media only screen and (min-width: 576px) {
