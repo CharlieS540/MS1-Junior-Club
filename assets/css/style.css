@@ -862,44 +862,72 @@ ul {
 
 /*----------------------------------------------------- About Us Section -----*/
 
+.about-us {
+    padding: 48px;
+}
+
 .about-us h2 {
     font-size: 36px;
+    padding: 36px 0;
 }
 
 .about-us h3 {
     font-size: 24px;
+    padding: 18px;
 }
 
 .about-us i {
     font-size: 24px;
+    margin-bottom: -12px;
 }
 
 .about-us p {
     font-size: 18px;
+    padding: 12px 0;
 }
 
 /*----------------------------------------------------- Testimonials Section -----*/
 
+.testimonials {
+    padding: 48px;
+}
+
 .testimonials h2 {
     font-size: 36px;
+    padding: 36px;
 }
 
 .testimonials p {
     font-size: 18px;
+    padding: 12px 0;
 }
 
 /*----------------------------------------------------- Activity Schedule Section -----*/
 
+.activity-schedule {
+    padding: 48px 0;
+}
+
 .activity-schedule h2 {
     font-size: 36px;
+    padding: 48px;
 }
 
 .activity-schedule-icon {
     font-size: 24px;
+    margin-bottom: -12px;
 }
 
 .activity-schedule h3 {
     font-size: 24px;
+    padding: 18px;
+}
+
+.activity-schedule table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 36px;
 }
 
 .activity-schedule td, .activity-schedule th {
@@ -915,6 +943,10 @@ ul {
 }
 
 /*----------------------------------------------------- Sign Up Section -----*/
+
+.sign-up-text {
+    margin: 48px;
+}
 
 .sign-up-text h3 {
     font-size: 24px;
