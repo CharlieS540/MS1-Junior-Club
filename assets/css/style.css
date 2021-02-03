@@ -75,11 +75,15 @@ nav li a {
 .hero-text h1 {
     font-size: 30px;
     font-weight: 700;
+    margin: 0;
+    padding: 10px;
 }
 
 .hero-text h3 {
     font-size: 18px;
     font-weight: 700;
+    margin: 0;
+    padding: 0 10px 10px 10px;
 }
 
 /*----------------------------------------------------- About Us Section -----*/
@@ -97,6 +101,7 @@ nav li a {
     text-align: center;
     letter-spacing: 3px;
     padding: 20px 0;
+    margin: 0;
 }
 
 .about-us h3 {
@@ -107,6 +112,7 @@ nav li a {
     text-align: center;
     letter-spacing: 3px;
     padding: 10px;
+    margin: 0;
 }
 
 .about-us i {
@@ -115,6 +121,7 @@ nav li a {
     font-weight: 700;
     display: block;
     text-align: center;
+    padding: 5px;
 }
 
 .about-us p {
@@ -124,7 +131,8 @@ nav li a {
     display: block;
     text-align: justify;
     letter-spacing: 1px;
-    padding: 0 20px 20px 20px;
+    padding: 10px 0;
+    margin: 0;
 }
 
 /*----------------------------------------------------- Testimonials Section -----*/
@@ -142,6 +150,7 @@ nav li a {
     text-align: center;
     letter-spacing: 3px;
     padding: 20px 0;
+    margin: 0;
 }
 
 .testimonials img {
@@ -163,7 +172,7 @@ nav li a {
     display: block;
     text-align: justify;
     letter-spacing: 1px;
-    padding: 10px;
+    padding: 10px 0;
     margin: 0;
 }
 
@@ -181,7 +190,8 @@ nav li a {
     font-weight: 700;
     text-align: center;
     letter-spacing: 3px;
-    padding: 20px 0;
+    padding: 20px 30px;
+    margin: 0;
 }
 
 .activity-schedule-icon {
@@ -190,7 +200,7 @@ nav li a {
     font-weight: 700;
     display: block;
     text-align: center;
-    padding-top: 10px;
+    padding: 5px;
 }
 
 .activity-schedule h3 {
@@ -200,14 +210,14 @@ nav li a {
     font-weight: 700;
     text-align: center;
     letter-spacing: 3px;
-    padding: 10px;
+    padding: 10px 30px;
     margin: 0;
 }
 
 .activity-schedule table {
     background-color: #113CF3;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .activity-schedule td, .activity-schedule th {
@@ -223,7 +233,6 @@ nav li a {
 
 .activity-schedule-download {
     text-align: center;
-    padding: 20px;
 }
 
 .activity-schedule button {
@@ -235,6 +244,7 @@ nav li a {
     letter-spacing: 3px;
     margin: 20px;
     border: 0;
+    padding: 10px 0;
 }
 
 .activity-schedule button:hover {
@@ -246,18 +256,21 @@ nav li a {
     letter-spacing: 3px;
     margin: 20px;
     border: 0;
+    padding: 10px 0;
 }
 
 .activity-schedule a {
     color: #fff;
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
+    border-radius: 25px;
 }
 
 .activity-schedule a:hover {
     color: #BEEE62;
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
+    border-radius: 25px;
 }
 
 
@@ -279,7 +292,7 @@ nav li a {
     background-color: rgba(17, 60, 243, .75);
     border-radius: 25px;
     padding: 10px;
-    margin: 50px;
+    margin: 30px;
     text-align: center;
 }
 
@@ -325,6 +338,7 @@ nav li a {
 footer {
     background-color: #BEEE62;
     text-align: center;
+    padding: 10px;
 }
 
 footer h3 {
@@ -360,7 +374,7 @@ footer p {
     width: 45px;
     border-radius: 50%;
     padding: 13px;
-    margin: 10px 10px 10px 0;
+    margin: 10px;
     font-size: 18px;
 }
 
@@ -477,6 +491,17 @@ footer p {
     margin: 0;
 }
 
+.col-12 {
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
 
 /*----------------------------------------------------- events.html -----*/
 /*----------------------------------------------------- Events -----*/
