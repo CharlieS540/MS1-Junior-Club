@@ -406,6 +406,7 @@ footer p {
 
 .modal-header {
     border-bottom: 3px solid #BEEE62;
+    padding: 10px;
 }
 
 .modal-title {
@@ -521,7 +522,8 @@ ul {
 .events-text h1 {
     background-color: rgba(17, 60, 243, .75);
     border-radius: 25px;
-    padding: 20px;
+    padding: 30px;
+    margin: 0;
     font-size: 30px;
     font-weight: 700;
     color: #BEEE62;
@@ -545,6 +547,7 @@ ul {
     text-align: center;
     letter-spacing: 3px;
     padding: 20px 0;
+    margin: 0;
 }
 
 .about-events p {
@@ -554,7 +557,8 @@ ul {
     display: block;
     text-align: justify;
     letter-spacing: 1px;
-    padding: 0 20px 20px 20px;
+    padding: 10px 0;
+    margin: 0;
 }
 
 .events-sign-up-text {
@@ -568,7 +572,7 @@ ul {
     font-weight: 700;
     text-align: center;
     letter-spacing: 3px;
-    padding: 10px;
+    padding: 10px 0;
     margin: 0;
 }
 
@@ -611,14 +615,15 @@ ul {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 3px;
-    padding: 20px 0;
+    padding: 20px 30px;
+    margin: 0;
     text-align: center;
 }
 
 .event-one table {
     background-color: #113CF3;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -639,7 +644,7 @@ ul {
     display: block;
     text-align: justify;
     letter-spacing: 1px;
-    padding: 10px;
+    padding: 10px 30px;
     margin: 0;
 }
 
@@ -649,7 +654,7 @@ ul {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 3px;
-    padding: 10px;
+    padding: 10px 30px;
     margin: 0;
     text-align: left;
 }
@@ -657,7 +662,8 @@ ul {
 .event-one-contact-icon {
     color: #113CF3;
     display: inline-block;
-    padding: 12px;
+    padding: 5px;
+    margin-left: 30px;
 }
 
 .event-one-contact-info p {
@@ -715,7 +721,7 @@ ul {
 
 .event-one img {
     width: 100%;
-    padding: 0 10% 10% 10%;
+    padding: 20px 30px;
 }
 
 /*----------------------------------------------------- Events Listing Two Section -----*/
@@ -732,7 +738,13 @@ ul {
     font-weight: 700;
     letter-spacing: 3px;
     padding: 20px 0;
+    margin: 0;
     text-align: center;
+}
+
+.event-two img {
+    width: 100%;
+    padding: 20px 30px;
 }
 
 .event-two table {
@@ -759,7 +771,7 @@ ul {
     display: block;
     text-align: justify;
     letter-spacing: 1px;
-    padding: 10px;
+    padding: 10px 30px;
     margin: 0;
 }
 
@@ -769,7 +781,7 @@ ul {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 3px;
-    padding: 10px;
+    padding: 10px 30px;
     margin: 0;
     text-align: left;
 }
@@ -777,7 +789,8 @@ ul {
 .event-two-contact-icon {
     color: #BEEE62;
     display: inline-block;
-    padding: 12px;
+    padding: 5px;
+    margin-left: 30px;
 }
 
 .event-two-contact-info p {
@@ -831,11 +844,6 @@ ul {
     letter-spacing: 1px;
     padding: 10px;
     margin: 0;
-}
-
-.event-two img {
-    width: 100%;
-    padding: 0 10% 10% 10%;
 }
 
 /*----------------------------------------------------- Media Queries -----*/
