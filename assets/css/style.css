@@ -873,7 +873,7 @@ ul {
 
 .about-us h3 {
     font-size: 24px;
-    padding: 18px;
+    padding: 18px 0;
 }
 
 .about-us i {
@@ -894,7 +894,7 @@ ul {
 
 .testimonials h2 {
     font-size: 36px;
-    padding: 36px;
+    padding: 36px 0;
 }
 
 .testimonials p {
@@ -905,12 +905,12 @@ ul {
 /*----------------------------------------------------- Activity Schedule Section -----*/
 
 .activity-schedule {
-    padding: 48px 0;
+    padding: 48px;
 }
 
 .activity-schedule h2 {
     font-size: 36px;
-    padding: 48px;
+    padding: 36px 0;
 }
 
 .activity-schedule-icon {
@@ -920,13 +920,10 @@ ul {
 
 .activity-schedule h3 {
     font-size: 24px;
-    padding: 18px;
+    padding: 18px 0;
 }
 
 .activity-schedule table {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 36px;
 }
 
@@ -1011,16 +1008,23 @@ footer p {
 
 /*----------------------------------------------------- About Events Section -----*/
 
+.about-events {
+    padding: 48px;
+}
+
 .about-events h2 {
     font-size: 36px;
+    padding: 36px 0;
 }
 
 .about-events p {
     font-size: 18px;
+    padding: 12px 0;
 }
 
 .events-sign-up-text h3 {
     font-size: 24px;
+    padding: 18px 0;
 }
 
 .events-sign-up-text button {
@@ -1033,8 +1037,17 @@ footer p {
 
 /*----------------------------------------------------- Events Listing One Section -----*/
 
+.event-one {
+    padding: 48px;
+}
+
 .event-one h2 {
     font-size: 36px;
+    padding: 36px 0;
+}
+
+.event-one table {
+    margin-bottom: 36px;
 }
 
 .event-one td, .event-one th {
@@ -1043,14 +1056,21 @@ footer p {
 
 .event-one p {
     font-size: 18px;
+    padding: 12px 0;
 }
 
 .event-one h3 {
     font-size: 24px;
+    padding: 18px 0;
 }
 
 .event-one-contact-info p {
     font-size: 18px;
+    padding: 12px 0;
+}
+
+.event-one-contact-icon {
+    margin: 0;
 }
 
 .event-one-contact-info a {
@@ -1065,10 +1085,27 @@ footer p {
     font-size: 18px;
 }
 
+.event-one img {
+    padding: 36px 0;
+}
+
 /*----------------------------------------------------- Events Listing Two Section -----*/
+
+.event-two img {
+    padding: 36px 0;
+}
+
+.event-two {
+    padding: 48px;
+}
 
 .event-two h2 {
     font-size: 36px;
+    padding: 36px 0;
+}
+
+.event-two table {
+    margin-bottom: 36px;
 }
 
 .event-two td, .event-two th {
@@ -1077,14 +1114,21 @@ footer p {
 
 .event-two p {
     font-size: 18px;
+    padding: 12px 0;
 }
 
 .event-two h3 {
     font-size: 24px;
+    padding: 18px 0;
 }
 
 .event-two-contact-info p {
     font-size: 18px;
+    padding: 12px 0;
+}
+
+.event-two-contact-icon {
+    margin: 0;
 }
 
 .event-two-contact-info a {
