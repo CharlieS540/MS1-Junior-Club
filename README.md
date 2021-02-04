@@ -8,8 +8,23 @@
 
 This site has been created to help promote Junior Club and to allow parents of the junior participants a place to source all information they may be looking for regarding schedules, events, contact information and more. The aim is to create a fluid, userfriendly site that also looks appealing and is consitant with the groups goals and colour schemes for consitancy and brand image.
 
+---
+---
+
 ## Table of contents
 
+---
+
+- [UX](#ux)
+- [Features](#features)
+- [Tecnologies used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Other Information](#other-information)
+- [Project Screenshots](#project-screenshots)
+
+---
 ---
 
 ## UX
@@ -94,6 +109,8 @@ Main colours used in project:
 * I used images from [Unplash.com](https://unsplash.com/) and these images are credited in the credits section.
 * I also used some images taken of our Junior Group. I have permission to use these images.
 
+Back to [Table of Contents](#table-of-contents)
+
 ## Features
 
 ---
@@ -161,6 +178,11 @@ The website consists on 3 pages home, events and gallery. The websites features 
 * Shop - Allows parents to purchase the junior club merchandise through an online store.
 * Add maps of where the events and camps take place and the home slope.
 
+Back to [Table of Contents](#table-of-contents)
+
+---
+---
+
 ## Technologies used
 
 ---
@@ -196,6 +218,11 @@ The website consists on 3 pages home, events and gallery. The websites features 
 ### Wireframes
 
 * [Balsamiq.com](https://balsamiq.com/) was used as a wireframe tool to sketch the structure of the site.
+
+Back to [Table of Contents](#table-of-contents)
+
+---
+---
 
 ## Testing
 
@@ -364,6 +391,11 @@ At the end of the project I used the validators below to validate the HTML and C
 * [W3C HTML Validator](https://validator.w3.org/#validate_by_input)
 * [W3c CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
+Back to [Table of Contents](#table-of-contents)
+
+---
+---
+
 ## Deployment
 
 ---
@@ -384,6 +416,11 @@ To run locally:
 * Log into GitHub and open the MS1-Junior-Club repository.
 * Select Code and click download zip file.
 * After downloading you can save and open the file locally on your device.
+
+Back to [Table of Contents](#table-of-contents)
+
+---
+---
 
 ## Credits
 
@@ -444,6 +481,11 @@ Below are the exaples of code I have copied to complete this project:
 
 All other images that are not credited above I have permisson to use by the subjects or their parents. I either took them myself or they were taken by a group instructor.
 
+Back to [Table of Contents](#table-of-contents)
+
+---
+---
+
 ## Other information
 
 ---
@@ -478,7 +520,12 @@ Below I have listed the major change to the finish project structure from the wi
 
 The social links are linked to the social platforms home page until accounts for Junior Club are set up.
 
-## Project Screen screenshots
+Back to [Table of Contents](#table-of-contents)
+
+---
+---
+
+## Project Screenshots
 
 ---
 
@@ -500,3 +547,8 @@ Finished Product
 ![Junior Club Site Screen Shot Gallery Page](assets/screenshots/finshed_screenshot14.png)
 ![Junior Club Site Screen Shot Gallery Page](assets/screenshots/finshed_screenshot15.png)
 ![Junior Club Site Screen Shot Gallery Page](assets/screenshots/finshed_screenshot16.png)
+
+Back to [Table of Contents](#table-of-contents)
+
+---
+---
