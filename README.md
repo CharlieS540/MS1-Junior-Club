@@ -304,9 +304,38 @@ After Changes were made to increase these stats
 * Added alt atributes to all images
 * Added rel="noopener" to all external link to improve performance.
 
+#### Potential future changes to improve this futher
+
+* Import images in a different format
+* Add meta tags to headings
+* Reduce the amount of images used
+* Import the fonts instead of linking
+
 ### Code Validation
 
 At the end of the project I used the validators below to validate the HTML and CSS code.
 
 * [W3C HTML Validator](https://validator.w3.org/#validate_by_input)
 * [W3c CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+## Deployment
+
+This project was deployed on GitHub pages. I used Gitpod as a development enviroment where all changes were commited to the repository in GitHub.
+
+To deploy the project I had to:
+
+* Log into GitHub and open the MS1-Junior-Club repository.
+* Got to settings and scroll down to GitHub pages.
+* Select the first dropdown with 'none' and change to branch:master.
+* Click save and then refresh the page.
+
+The site is published at [https://charlies115.github.io/MS1-Junior-Club/](https://charlies115.github.io/MS1-Junior-Club/)
+
+To run locally:
+
+* Log into GitHub and open the MS1-Junior-Club repository.
+* Select Code and click download zip file.
+* After downloading you can save and open the file locally on your device.
+
+## Credits
+
