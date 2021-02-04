@@ -74,7 +74,7 @@ Gallery Page
 Main colours used in project:
 
 * #BEEE62 - Primary colour one
-* #113FC3 - Primary colour two
+* #113CF3 - Primary colour two
 * #fff - used for paragraphs and buttons to contrast with primary colour two
 * #000 - used for paragraphs and buttons to contrast with primary colour one
 
@@ -288,6 +288,10 @@ After Changes were made to increase these stats
 
 ![Lighthouse Performance Screenshot](assets/screenshots/performance_screenshot2.png)
 
+After adding gallery page and making changes to increse the page stats
+
+![Lighthouse Performance Screenshot](assets/screenshots/performance_screenshot5.png)
+
 #### Desktop Devices
 
 Before
@@ -297,6 +301,10 @@ Before
 After Changes were made to increase these stats
 
 ![Lighthouse Performance Screenshot](assets/screenshots/performance_screenshot4.png)
+
+After adding gallery page and making changes to increse the page stats
+
+![Lighthouse Performance Screenshot](assets/screenshots/performance_screenshot6.png)
 
 #### Changes made to improve stats
 
@@ -338,4 +346,94 @@ To run locally:
 * After downloading you can save and open the file locally on your device.
 
 ## Credits
+
+To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+### Learning resources and styling ideas
+
+Throughtout learning with code institute I have researched and learn't using the following site and courses:
+
+* [Code Institue](https://learn.codeinstitute.net/login?next=/dashboard)
+    * Throughout this project I have refered back to lots of different moduls to refresh myself on good practices.
+* [W3Schools](https://www.w3schools.com/)
+    * I have used this site throughout the course when looking for ideas or potential stylings to code.
+* [CSS-Tricks](https://css-tricks.com/)
+    * I have occasional visted this site for ideas and potential fixes throughout the course.
+* [Bootstrap](https://getbootstrap.com/)
+    * Throughtout this project I have visted this site many time to create the pages structure and give ideas and coding examples.
+    * I have also read up on ever class I have used to understand exactly what it will do to the site when used.
+* [Stack Overflow](https://stackoverflow.com/)
+    * I have visted this site a few times throughtout the course however I have avoided it whilst building this site as I wanted to workout how to do most of the code myself and not just see fixes.
+* [Code Academy](https://www.codecademy.com/)
+    * I have not visted this site recently however this is where I first started learning to code.
+
+### Code
+
+I have tried to do almost all the code and styling myself through trial and error and using google inspect.
+
+Below are the exaples of code I have copied to complete this project:
+
+* [Bootstrap - Modal](https://getbootstrap.com/docs/5.0/components/modal/)
+    * The modal was originally copied from bootstrap library. This modal has been heavily modified.
+* [Bootstrap - Navbar](https://getbootstrap.com/docs/5.0/components/navbar/)
+    * The navbar was originally copied from bootstrap library. This has been heavily modified.
+* [Bootstrap - Hamburger Menu](https://getbootstrap.com/docs/4.3/components/navbar/#how-it-works)
+    * The hamburger menu was originally copied from bootstrap library. This has been heavily modified.
+* [CSS-Tricks - Full Page Background Image](https://css-tricks.com/perfect-full-page-background-image/)
+    * This was used to ensure the bckgroun images are loaded correctly across devices.
+
+### Images
+
+[Unsplash Images](https://unsplash.com/) 
+
+* testimonial_img1.jpg - [Omid Armin](https://unsplash.com/photos/HtQLD6HOS94?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+* testimonial_img2.jpg - [Hisu Lee](https://unsplash.com/photos/u6LGX2VMOP4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+* testimonial_img3.jpg - [Elizeu Dias](https://unsplash.com/photos/2EGNqazbAMk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+* events_img1.jpg - [Victoire Joncheray](https://unsplash.com/photos/EF0UG0xFgnA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+* event_one_img1.jpg - [Sebastian Staines](https://unsplash.com/photos/xZIFEPtRsRI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+* gallery_img1.jpg - [Yann Allegre](https://unsplash.com/photos/8FG9tt8qZ-8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+* photo10.jpg - [Jörg Angeli](https://unsplash.com/photos/2Gs29PjkAA4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+
+All other images that are not credited above I have permisson to use by the subjects or their parents. I either took them myself or they were taken by a group instructor.
+
+## Other information
+
+### Git commits
+
+There Github commit on February 1st saying 'http.server' was not intend to be submit wih this message so I done another commit with the message 'added event two and styled. websites at the bottom of section linked to the event organisers home page.' which was the intended message for this commit.
+
+### Wireframe Design Changes
+
+Below I have listed the major change to the finish project structure from the wireframes and why.
+
+* About us section added
+    * This section was added as having this information split up and in other section made it difficult for users to get a full picture.
+
+* Schedule of events
+    * Put the schedule of events inside a table instead of events tiles to make the information easier to breakdown and acquire. The tile approach was tried in a seperate repository but did not have an appealing look.
+
+* Event Listings 
+    * One image per listing instead of multiple. This was because the screen seemed too crowed with more than one image. This was also tried in a seperate repository.
+
+* Events and Gallery titles
+    * Page width images with a title incased were added to provide consitancy throughout the site.
+
+* Events
+    * Schedule wasn't added as there is an activity schedule on the home page and I wanted to reserve the events page for events and camps.
+
+* Gallery
+    * Decided to go with images all of the same size with spacing as I thought this looked better then images of all diffrent sizes side by side.
+
+### Social links
+
+The social links are linked to the social platforms home page until accounts for Junior Club are set up.
+
+## Project Screen screenshots
+
 
