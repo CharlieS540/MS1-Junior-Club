@@ -278,7 +278,31 @@ Below are the before and after screenshots:
 
 ### Performance Testing
 
+#### Mobile Devices
+
+Before
+
 ![Lighthouse Performance Screenshot](assets/screenshots/performance_screenshot1.png)
+
+After Changes were made to increase these stats
+
+![Lighthouse Performance Screenshot](assets/screenshots/performance_screenshot2.png)
+
+#### Desktop Devices
+
+Before
+
+![Lighthouse Performance Screenshot](assets/screenshots/performance_screenshot3.png)
+
+After Changes were made to increase these stats
+
+![Lighthouse Performance Screenshot](assets/screenshots/performance_screenshot4.png)
+
+#### Changes made to improve stats
+
+* Reduced the file size of the testimonial images
+* Added alt atributes to all images
+* Added rel="noopener" to all external link to improve performance.
 
 ### Code Validation
 
