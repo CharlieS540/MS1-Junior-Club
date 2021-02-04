@@ -2,14 +2,19 @@
 
 ## User-Centric Frontend Development Milestone Project.
 
+---
+
 ![responsive deign image](assets/screenshots/readme_title_img1.png)
 
 This site has been created to help promote Junior Club and to allow parents of the junior participants a place to source all information they may be looking for regarding schedules, events, contact information and more. The aim is to create a fluid, userfriendly site that also looks appealing and is consitant with the groups goals and colour schemes for consitancy and brand image.
 
 ## Table of contents
 
+---
 
 ## UX
+
+---
 
 ### Project goals
 
@@ -91,6 +96,8 @@ Main colours used in project:
 
 ## Features
 
+---
+
 The website consists on 3 pages home, events and gallery. The websites features are listed below:
 
 ### Navigation bar
@@ -156,6 +163,8 @@ The website consists on 3 pages home, events and gallery. The websites features 
 
 ## Technologies used
 
+---
+
 ### HTML5
 
 * Used as a structural language.
@@ -189,6 +198,8 @@ The website consists on 3 pages home, events and gallery. The websites features 
 * [Balsamiq.com](https://balsamiq.com/) was used as a wireframe tool to sketch the structure of the site.
 
 ## Testing
+
+---
 
 ### Functionality Testing
 
@@ -226,6 +237,13 @@ This site was tested across the following devices and browsers:
 * Post weekly activities.
     * Activity Schedule clearly formatted to make adding new information quick and easy.
 
+##### Supporting screenshots
+
+![Junior Club Site Testimonials Section](assets/screenshots/finshed_screenshot4.png)
+![Junior Club Site Activity Schedule Section](assets/screenshots/finshed_screenshot5.png)
+![Junior Club Site Sign Up Section](assets/screenshots/finshed_screenshot6.png)
+![Junior Club Site Event Listing Section](assets/screenshots/finshed_screenshot10.png)
+
 #### As a new customer:
 
 * I would like to find out what the club is about.
@@ -234,8 +252,15 @@ This site was tested across the following devices and browsers:
     * How to join is clearly labeled and explained inside the about us section.
 * I would like to know how much it costs and when the session are.
     * Session information is clearly labeled and explained inside the about us section.
+
 * I would like to read customer reviews or testimonials.
     * Testimonials section is clearly defined and easy to find in the homw page.
+
+##### Supporting screenshots
+
+![Junior Club Site About Us Section](assets/screenshots/finshed_screenshot2.png)
+![Junior Club Site About Us Section](assets/screenshots/finshed_screenshot3.png)
+![Junior Club Site About Us Section](assets/screenshots/finshed_screenshot4.png)
 
 #### As a returning customer:
 
@@ -245,6 +270,15 @@ This site was tested across the following devices and browsers:
     * Events page lists upcoming events and camps and they are sectioned seperately with all the iformation regarding an event within the section.
 * I wish to sign up to a newsletter to keep up to date.
     * There is two places that a user can sign up, one on the home page and one on the events page. Both has call to actions and a sign up button.
+
+##### Supporting screenshots
+
+![Junior Club Site Activity Schedule Section](assets/screenshots/finshed_screenshot5.png)
+![Junior Club Site Download Now Button](assets/screenshots/finshed_screenshot6.png)
+![Junior Club Site Sign Up Section](assets/screenshots/finshed_screenshot9.png)
+![Junior Club Site Event Listing Section](assets/screenshots/finshed_screenshot10.png)
+![Junior Club Site Event Listing Section](assets/screenshots/finshed_screenshot11.png)
+![Junior Club Site Event Listing Section](assets/screenshots/finshed_screenshot12.png)
 
 ### Issues found and fixes
 
@@ -332,6 +366,8 @@ At the end of the project I used the validators below to validate the HTML and C
 
 ## Deployment
 
+---
+
 This project was deployed on GitHub pages. I used Gitpod as a development enviroment where all changes were commited to the repository in GitHub.
 
 To deploy the project I had to:
@@ -350,6 +386,8 @@ To run locally:
 * After downloading you can save and open the file locally on your device.
 
 ## Credits
+
+---
 
 To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
@@ -408,6 +446,8 @@ All other images that are not credited above I have permisson to use by the subj
 
 ## Other information
 
+---
+
 ### Git commits
 
 There Github commit on February 1st saying 'http.server' was not intend to be submit wih this message so I done another commit with the message 'added event two and styled. websites at the bottom of section linked to the event organisers home page.' which was the intended message for this commit.
@@ -439,6 +479,8 @@ Below I have listed the major change to the finish project structure from the wi
 The social links are linked to the social platforms home page until accounts for Junior Club are set up.
 
 ## Project Screen screenshots
+
+---
 
 Finished Product
 
