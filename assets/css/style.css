@@ -1191,6 +1191,53 @@ footer {
     padding: 15px;
 }
 
+/*----------------------------------------------------- events.html -----*/
+/*----------------------------------------------------- About Events -----*/
+
+.about-events p {
+    padding: 18px;
+}
+
+.about-events h3 {
+    padding: 24px;
+}
+
+/*----------------------------------------------------- Events Listing One Section -----*/
+
+.event-one p {
+    padding: 18px;
+}
+
+.event-one h3 {
+    padding: 24px;
+}
+
+.event-one-contact-icon {
+    margin-left: 18px;
+}
+
+.event-one-contact-info p {
+    padding: 18px;
+}
+
+/*----------------------------------------------------- Events Listing Two Section -----*/
+
+.event-two p {
+    padding: 18px;
+}
+
+.event-two h3 {
+    padding: 24px;
+}
+
+.event-two-contact-icon {
+    margin-left: 18px;
+}
+
+.event-two-contact-info p {
+    padding: 18px;
+}
+
 }
 
 @media only screen and (min-width: 992px) {
