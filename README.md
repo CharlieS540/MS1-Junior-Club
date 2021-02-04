@@ -1,60 +1,73 @@
-# Junior Club
+# Junior Club website
 
-This site has been created to help promote Junior Club and to allow parents of the junior participants a place to source all information they may be looking for regarding schedules, events, contact information and more. The aim is to create a fluid, userfriendly site the also looks appealing and is consitant with the groups goals and colour schemes for consitancy and brand image.
+## User-Centric Frontend Development Milestone Project.
+
+![responsive deign image](assets/images/readme_title_img1.png)
+
+This site has been created to help promote Junior Club and to allow parents of the junior participants a place to source all information they may be looking for regarding schedules, events, contact information and more. The aim is to create a fluid, userfriendly site that also looks appealing and is consitant with the groups goals and colour schemes for consitancy and brand image.
+
+## Table of contents
+
+
 
 ## UX
 
 ### Project goals
 
-The primary goal of Junior Club is to improve young skiers and snowboarders's technique inside a safe and fun enviroment and increase interest in these sports for an early age. This site will aid this primary goal by allowing a place that parents can visit to find out about what's involved and many other details that group leaders are asked on a weekly basis. This site has two audience's: parents of young skiers and snwboarders looking to find out what is involved and potentially join the the Junior Club programme and parents of young skiers and snowboarders that are aleardy part of this programme looking to find out about upcoming events and the weekly schedule.
+The primary goal of the Junior Club website is to provide parents information regarding the clubs times, events and camps. This site has two main audience's: new customers - parents of young skiers and snoboarders looking to find out what is involved and potentially join the the Junior Club programme and returning customers - parents of young skiers and snowboarders that are aleardy part of this programme looking to find out about upcoming events and the weekly schedule.
 
-### User stories
+### User goals
 
-#### Parents of Juniors looking to join goals
+#### New user goals:
 
-Parents have a large amount of say about what sports and clubs their children are exposed to, therefore this website should give those parents an insight into the club and the activities, learning and fun their children can have whilst a part of the club.
+* User is able to find out whats involved in the club.
+* User can find out how to join the club.
+* User can see when sessions are and what activities are on.
 
-##### Parents goals are:
+#### Returning user goals:
 
-* Find information on session dates and times.
-* Find the minimum requirements and how to join the club.
-* Explore the different activities covered.
-* Read testimonials/quotes.
-* View photos of the group in action.
-* Find out about the instructors that would be teaching their children.
+* User can view upcoming events.
+* User can view upcoming activities.
+* User can sign up for email updates about events, camps and activity schedule.
 
-##### Junior Club site is a great way to achieve these goals because:
+### User Stories
 
-* There is a section "About Us" which details typical session times, prices, how to join, why the club was created and any other general information about the club.
-* The planning and design process took all these needs into account before starting to build and structure it.
-* Sections and pages are cleary defined including sections/pages for Testimonials, Gallery, events and more.
-* Navigation menu is fixed so provides a point of safety/familiarity for the parents.
-* The overall feel to the site is that it flows nicely and uses the groups core colours to provide a consitant brand image and association with the club itself.
+#### As the Camp Lead Coach and website owner:
 
-#### Parents of Juniors already in the club goals
+* I would like to present the club to potential new custom in a clear and visually pleasing way.
+* Keep exsiting members up to date with events and camps.
+* Increase our contact database.
+* Post weekly activities.
 
-Parents of children already a part of the Juior Club are always looking for events and what their children will be learning next, therefore this website should give those parents a clear breakdown of the activites each week and upcoming events and camps.
+#### As a new customer:
 
-##### Parents goals are:
+* I would like to find out what the club is about.
+* I wish to know how to sign up.
+* I would like to know how much it costs and when the session are.
+* I would like to read customer reviews or testimonials.
 
-* View the weekly schedule of activites.
-* Find out about any upcoming events and camps.
-* View photos of the group and potentially their children in action.
-* Find out any important updates.
-* Sign up to the newsletter.
+#### As a returning customer:
 
-##### Junior Club is a great way to help parents achieve these goals because:
-
-* The planning and design process took all these needs into account before starting to build and structure it.
-* Sections and pages are cleary defined including sections/pages for Events, Gallery, newsletter sign up and more.
-* Navigation menu is fixed so provides a point of safety/familiarity for the parents.
-* The overall feel to the site is that it flows nicely and uses the groups core colours to provide a consitant brand image and association with the club itself.
+* I would like to check what activities are coming up.
+* I would like to view upcoming events and camps.
+* I wish to sign up to a newsletter to keep up to date.
 
 #### Wireframes
 
-Link to - [Wireframes](https://balsamiq.cloud/sg2nw91/ptckitt)
+I used https://balsamiq.com/ to create the wireframes.
 
-The wireframes show the structure for the planned site. This site has a Home, Events and Gallery Page. The wireframes show how the site will look on a desktop, table and phone (Large+, medium and small screen sizes respectively)
+
+Home Page
+
+![wireframe home page](assets/screenshots/wireframe_index_img.png)
+
+Events Page
+
+![wireframe events page](assets/screenshots/wireframe_events_img.png)
+
+Gallery Page
+
+![wireframe gallery page](assets/screenshots/wireframe_gallery_img.png)
 
 ### Design Choices
 
