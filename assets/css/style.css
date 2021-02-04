@@ -455,7 +455,7 @@ footer p {
 
 .modal-sign-up-btn button {
     background-color: #BEEE62;
-    color: #113CF3;
+    color: #000;
     font-size: 18px;
     border-radius: 25px;
     font-weight: 700;
@@ -467,8 +467,8 @@ footer p {
 }
 
 .modal-sign-up-btn button:hover {
-    background-color: #113CF3;
-    color: #BEEE62;
+    background-color: #BEEE62;
+    color: #113CF3;
     font-size: 18px;
     border-radius: 25px;
     font-weight: 700;
@@ -1197,6 +1197,11 @@ footer p {
 
 /*------------------------------------------------------- gallery.html -----*/
 /*----- gallery.html ------------------------------------ Gallery Photos -----*/
+
+
+.gallery-text h1 {
+    font-size: 48px;
+}
 
 .gallery-photos h3 {
     font-size: 24px;
