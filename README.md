@@ -9,7 +9,6 @@ This site has been created to help promote Junior Club and to allow parents of t
 ## Table of contents
 
 
-
 ## UX
 
 ### Project goals
@@ -54,7 +53,7 @@ The primary goal of the Junior Club website is to provide parents information re
 
 ### Wireframes
 
-I used https://balsamiq.com/ to create the wireframes.
+I used [Balsamiq.com](https://balsamiq.com/) to create the wireframes.
 
 Home Page
 
@@ -85,51 +84,127 @@ Main colours used in project:
 * Secondary font - 'Chicle' chosen as it also has a playful feel to it.
 * Back-up font - 'sans-serif' chosen as a back-up as standard.
 
+#### Images
 
-
-#### Icons
-
-#### Colours
-
-#### Styling
-
-#### Backgrounds
+* I used images from [Unplash.com](https://unsplash.com/) and these images are credited in the credits section.
+* I also used some images taken of our Junior Group. I have permission to use these images.
 
 ## Features
 
-### Existing Features
+The website consists on 3 pages home, events and gallery. The websites features are listed below:
 
-* Fixed Navbar - Gives the users a piont of reference and allows for easy movement between the pages.
-* Defined Sections - Gives the user a clear point where each section finishes and a new one starts.
-* Responsive icons - Provides the user with visual feedback when they hover over an icon that can be clicked to take them to the logical link.
-* Sign Up Modal - Allows the user to easily sign up without loosing their place on the page or site.
-* Events page - Clear space for users to find out everything about events.
+### Navigation bar
 
-### Potential Future Features
+* Navbar has a fixed position at the top of every page. It is responsive and for extra small devices, mobile devices, this list of pages will collapse into a burger menu.
+* The site logo/title on the left side can be used as a link back to the home page.
+* The page names on the right can be used to navigate back and forth between home, events and gallery.
+
+### Home page
+
+#### Hero Image Sections
+
+* The section has a clear title and call to action. This action being join the fun today! To encourage others to join.
+
+#### About Us Section
+
+* Clearly defined sections of text so users do not have to read evenything and can got directly to the part they want to know about for example skiing on snowboarding.
+* Icons of skiers and boarders used about their respective titles sso even at a glance you can see what might be of interest to read.
+
+#### Testimonials
+
+* Short and to the point testimonials so people can have an idea of what others think of the club.
+* Images of the quote authors are shown at medium screen size and above. This breaks the text up a little and provides a little secruity that these testimonials where written by actual customers.
+
+#### Activity schedule
+
+* Tables used to list the activities as this is a clear and easy way to find out what's comming up.
+* seperate tables for skiers and snowboarders so customers are not confused and turn up to the wrong sessions.
+* Call to download and button that allows people to download a pdf of the upcoming schedule. This will open in a blank page so the user doesn't lose their place on the page.
+
+#### Sign Up Section
+
+* Call to action encouraging users to sign up for updates.
+* Sign up button that opens a modal where users can submit their name and email. The use of a modal allows the user to keep their position on a page.
+
+#### Footer
+
+* Contact information for the group leader provided if peope wish to call or email.
+* Links to social media pages so users can easily navigate to social pages of the group. These will open in a blank page so the user doesn't lose their place on the page.
+
+### Events page
+
+#### About Events Section
+
+* Short description explaining a little about the events and camps.
+* Another call to action button to try and grab the attention of anyone missed on the home page. This opens a modal where users can submit their name and email. The use of a modal allows the user to keep their position on a page.
+
+#### Event Listing Sections
+
+* Clear Organisation name
+* Table to show the events date, time, price and activities involved.
+* A small paragraph about the organisation.
+* Contact information for the organisers.
+* Image from the organiser showcasing their events or and athlete that has attended.
+
+### Future Features
 
 * Results Page - A page users can visit to see results of recent events.
 * User Profiles - A login button to allow users to login to idvidual profiles.
 * Profile Page - This chould have information regarding to their childs performance within the group including feedback, rankings, exercises and more.
 * Shop - Allows parents to purchase the junior club merchandise through an online store.
+* Add maps of where the events and camps take place and the home slope.
 
-## Technologies Used
+## Technologies used
 
-* Code Institutes Github Template
-* [Boostrap](https://getbootstrap.com/)
-    * The project uses Bootstrap framework primarly for its grid system and ease of style html.
-* [Font Awesome](https://fontawesome.com/)
-    * The project uses Font Awesome for its icons.
-* [Google Fonts](https://fonts.google.com/)
-    * The project uses Google Fonts to style the font in a more appealing way for the user.
+### HTML5
+
+* Used as a structural language.
+
+### CSS
+
+* Used as a style language.
+
+### Bootstrap
+
+* [Boostrap](https://getbootstrap.com/) Version 4.3.1 used as a CSS framework to aid responsive design. A mobile first approach was taken.
+
+### Font Awesome
+
+* [Font Awesome](https://fontawesome.com/) was used for social links, skiing and snowboarding headings and for table headings.
+
+### Google Fonts
+
+* [Google Fonts](https://fonts.google.com/) used as a font resource.
+
+### Github
+
+* [GitHub](https://github.com/) was used as the sites repository.
+
+### Gitpod
+
+* [Gitpod](https://gitpod.io/workspaces/) was used as a development hosting platform.
+
+### Wireframes
+
+* [Balsamiq.com](https://balsamiq.com/) was used as a wireframe tool to sketch the structure of the site.
 
 ## Testing
 
-## Deployment
+### Functionality Testing
 
-## Credits
+I used google chrome developer tools throughtout the project to text everything from spacing to repsposiveness.
 
-### Content
+### Compatibilty Testing
 
-### Media
+This site was tested across the following devices and browsers:
 
-### Acknowledgements
+#### Devices
+
+* Hp Laptop using windows 10 home
+* Honor 20 pro mobile phone
+
+#### browsers
+
+* Google Chrome
+* Mozila Fox
+* Microsoft Edge
