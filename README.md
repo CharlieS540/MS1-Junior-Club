@@ -282,7 +282,7 @@ Result - All navbar elements working.
 
 Expected - it's expected that their is a clear contrast between text colour and background color throught the site.
 
-Testing - Used google select to hover over all texts and check contrast is ticked. Also read everything to check it was all clearly visable.
+Testing - Used google inspect to hover over all texts and check contrast is ticked. Also read everything to check it was all clearly visable.
 
 Result - All text has a good contrast between itself and background color.
 
@@ -329,6 +329,16 @@ Testing - Open modal using sign up buttons, type information and submit.
 Result - Functionality responded as expect however found an issue where button was reversing colors when pseudo :hover was active.
 
 Fix - Change the :hover background colour to green so the button is always visable.
+
+#### Gallery page title
+
+Expected - Increase in size at screen width 576px and up.
+
+Testing - Tested this by expanding and contracting the windown size inside google inspect.
+
+Result - Text size did not change.
+
+Fix - Added font size of 48px to media query for 576px width and up.
 
 ### Compatibility Testing
 
