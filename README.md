@@ -320,6 +320,16 @@ Result - Did not respond as expected on screen widths from 576px to 608px. The n
 
 Fix - Changed the nav links padding to allow for more room.
 
+#### Tested Modals
+
+Expected - Able to input and submit information.
+
+Testing - Open modal using sign up buttons, type information and submit.
+
+Result - Functionality responded as expect however found an issue where button was reversing colors when pseudo :hover was active.
+
+Fix - Change the :hover background colour to green so the button is always visable.
+
 ### Compatibility Testing
 
 This site was tested across the following devices and browsers:
