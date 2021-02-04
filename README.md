@@ -194,6 +194,10 @@ The website consists on 3 pages home, events and gallery. The websites features 
 
 I used google chrome developer tools throughtout the project to text everything from spacing to repsposiveness.
 
+* Tested responsiveness regularly and fixed any issues as they arose.
+* Tested all links internal and external.
+* Tested contrasts between text and background.
+
 ### Compatibility Testing
 
 This site was tested across the following devices and browsers:
