@@ -235,42 +235,32 @@ nav li a {
     text-align: center;
 }
 
-.activity-schedule button {
-    background-color: #113CF3;
-    font-size: 18px;
-    border-radius: 25px;
-    font-weight: 700;
-    font-family: "Chicle", sans-serif;
-    letter-spacing: 3px;
-    margin: 20px;
-    border: 0;
-    padding: 10px 0;
-}
-
-.activity-schedule button:hover {
-    background-color: #113CF3;
-    font-size: 18px;
-    border-radius: 25px;
-    font-weight: 700;
-    font-family: "Chicle", sans-serif;
-    letter-spacing: 3px;
-    margin: 20px;
-    border: 0;
-    padding: 10px 0;
-}
-
 .activity-schedule a {
+    background-color: #113CF3;
     color: #fff;
     text-decoration: none;
-    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    margin: 20px;
+    padding: 10px;
     border-radius: 25px;
+    border: 0;
 }
 
 .activity-schedule a:hover {
+    background-color: #113CF3;
     color: #BEEE62;
     text-decoration: none;
-    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    margin: 20px;
+    padding: 10px;
     border-radius: 25px;
+    border: 0;
 }
 
 
