@@ -1248,4 +1248,30 @@ footer {
     height: 90vh;
 }
 
+/*----------------------------------------------------- events.html -----*/
+/*----------------------------------------------------- Events Listing One Section -----*/
+
+.event-one table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-one img {
+    padding: 36px 18px;
+}
+
+/*----------------------------------------------------- Events Listing Two Section -----*/
+
+.event-two table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-two img {
+    padding: 36px 18px;
+}
+
+
 }
