@@ -3,6 +3,7 @@
 
 .navbar {
     background-color: #113CF3;
+    padding: 8px 15px;
 }
 
 .navbar > a {
@@ -12,7 +13,6 @@
 
 nav li a {
     font-size: 18px;
-    padding: 0px 8px;
     margin: 8px;
 }
 
@@ -21,6 +21,7 @@ nav li a {
     font-family: "Architects Daughter", sans-serif;
     font-weight: 700;
     letter-spacing: 3px;
+    padding: 8px;
 }
 
 .active {
