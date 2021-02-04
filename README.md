@@ -19,7 +19,7 @@ The primary goal of the Junior Club website is to provide parents information re
 
 #### New user goals:
 
-* User is able to find out whats involved in the club.
+* User is able to find out what's involved in the club.
 * User can find out how to join the club.
 * User can see when sessions are and what activities are on.
 
@@ -34,7 +34,7 @@ The primary goal of the Junior Club website is to provide parents information re
 #### As the Camp Lead Coach and website owner:
 
 * I would like to present the club to potential new custom in a clear and visually pleasing way.
-* Keep exsiting members up to date with events and camps.
+* Keep existing members up to date with events and camps.
 * Increase our contact database.
 * Post weekly activities.
 
@@ -176,7 +176,7 @@ The website consists on 3 pages home, events and gallery. The websites features 
 
 * [Google Fonts](https://fonts.google.com/) used as a font resource.
 
-### Github
+### GitHub
 
 * [GitHub](https://github.com/) was used as the sites repository.
 
@@ -194,7 +194,7 @@ The website consists on 3 pages home, events and gallery. The websites features 
 
 I used google chrome developer tools throughtout the project to text everything from spacing to repsposiveness.
 
-### Compatibilty Testing
+### Compatibility Testing
 
 This site was tested across the following devices and browsers:
 
@@ -215,7 +215,7 @@ This site was tested across the following devices and browsers:
 
 * I would like to present the club to potential new custom in a clear and visually pleasing way.
     * The sites has clearly defined sections and is responsponsive.
-* Keep exsiting members up to date with events and camps.
+* Keep existing members up to date with events and camps.
     * The Activity Schedule and Events page are clearly label and defined making it easy to find out about events and camps.
 * Increase our contact database.
     * There is two places on the site with a call to action and a sign up modal to try and encourage users to sign up.
@@ -309,10 +309,10 @@ After adding gallery page and making changes to increse the page stats
 #### Changes made to improve stats
 
 * Reduced the file size of the testimonial images
-* Added alt atributes to all images
+* Added alt attributes to all images
 * Added rel="noopener" to all external link to improve performance.
 
-#### Potential future changes to improve this futher
+#### Potential future changes to improve this further
 
 * Import images in a different format
 * Add meta tags to headings
@@ -436,4 +436,21 @@ The social links are linked to the social platforms home page until accounts for
 
 ## Project Screen screenshots
 
+Finished Product
 
+![Junior Club Site Screen Shot Home Page](assets/screenshots/finshed_screenshot1.png)
+![Junior Club Site Screen Shot Home Page](assets/screenshots/finshed_screenshot2.png)
+![Junior Club Site Screen Shot Home Page](assets/screenshots/finshed_screenshot3.png)
+![Junior Club Site Screen Shot Home Page](assets/screenshots/finshed_screenshot4.png)
+![Junior Club Site Screen Shot Home Page](assets/screenshots/finshed_screenshot5.png)
+![Junior Club Site Screen Shot Home Page](assets/screenshots/finshed_screenshot6.png)
+![Junior Club Site Screen Shot Home Page](assets/screenshots/finshed_screenshot7.png)
+![Junior Club Site Screen Shot Events Page](assets/screenshots/finshed_screenshot8.png)
+![Junior Club Site Screen Shot Events Page](assets/screenshots/finshed_screenshot9.png)
+![Junior Club Site Screen Shot Events Page](assets/screenshots/finshed_screenshot10.png)
+![Junior Club Site Screen Shot Events Page](assets/screenshots/finshed_screenshot11.png)
+![Junior Club Site Screen Shot Events Page](assets/screenshots/finshed_screenshot12.png)
+![Junior Club Site Screen Shot Events Page](assets/screenshots/finshed_screenshot13.png)
+![Junior Club Site Screen Shot Gallery Page](assets/screenshots/finshed_screenshot14.png)
+![Junior Club Site Screen Shot Gallery Page](assets/screenshots/finshed_screenshot15.png)
+![Junior Club Site Screen Shot Gallery Page](assets/screenshots/finshed_screenshot16.png)
