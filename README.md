@@ -2,7 +2,7 @@
 
 ## User-Centric Frontend Development Milestone Project.
 
-![responsive deign image](assets/images/readme_title_img1.png)
+![responsive deign image](assets/screenshots/readme_title_img1.png)
 
 This site has been created to help promote Junior Club and to allow parents of the junior participants a place to source all information they may be looking for regarding schedules, events, contact information and more. The aim is to create a fluid, userfriendly site that also looks appealing and is consitant with the groups goals and colour schemes for consitancy and brand image.
 
@@ -52,10 +52,9 @@ The primary goal of the Junior Club website is to provide parents information re
 * I would like to view upcoming events and camps.
 * I wish to sign up to a newsletter to keep up to date.
 
-#### Wireframes
+### Wireframes
 
 I used https://balsamiq.com/ to create the wireframes.
-
 
 Home Page
 
@@ -69,14 +68,24 @@ Gallery Page
 
 ![wireframe gallery page](assets/screenshots/wireframe_gallery_img.png)
 
-### Design Choices
+### Surface
 
-This site is designed with parents in mind however some of the design choices have been made to give it that playful look as the site is about a junior club.
+#### Colours
+
+Main colours used in project:
+
+* #BEEE62 - Primary colour one
+* #113FC3 - Primary colour two
+* #fff - used for paragraphs and buttons to contrast with primary colour two
+* #000 - used for paragraphs and buttons to contrast with primary colour one
 
 #### Fonts
 
-* The primary font Architects Daughter was chosen because it resembles a childs had writing, is easily ledgable and has a playful feel to it.
-* The secondary font Chicle was chosen as it also has a playful feel to it.
+* Primary font - 'Architects Daughter' chosen because it resembles a childs had writing, is easily ledgable and has a playful feel to it.
+* Secondary font - 'Chicle' chosen as it also has a playful feel to it.
+* Back-up font - 'sans-serif' chosen as a back-up as standard.
+
+
 
 #### Icons
 
