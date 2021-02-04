@@ -1,5 +1,5 @@
 /*----------------------------------------------------- index.html -----*/
-/*----------------------------------------------------- Navbar -----*/
+/*----- index.html ------------------------------------ Navbar -----*/
 
 .navbar {
     background-color: #113CF3;
@@ -48,15 +48,18 @@ nav li a {
     font-size: 24px;
 }
 
-/*----------------------------------------------------- Hero Image Section -----*/
+/*----- index.html ------------------------------------ Hero Image Section -----*/
 
 .hero-image { 
     height: 90vh;
-    background: url(../images/hero_img1.jpg) no-repeat center center; 
+    background: url(../images/hero_img1.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .hero-text {
@@ -67,10 +70,6 @@ nav li a {
     text-align: center;
     font-family: "Architects Daughter", sans-serif;
     letter-spacing: 3px;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .hero-text h1 {
@@ -87,7 +86,7 @@ nav li a {
     padding: 0 10px 10px 10px;
 }
 
-/*----------------------------------------------------- About Us Section -----*/
+/*----- index.html ------------------------------------ About Us Section -----*/
 
 .about-us {
     background-color: #BEEE62;
@@ -136,7 +135,7 @@ nav li a {
     margin: 0;
 }
 
-/*----------------------------------------------------- Testimonials Section -----*/
+/*----- index.html ------------------------------------ Testimonials Section -----*/
 
 .testimonials {
     background-color: #113CF3;
@@ -177,7 +176,7 @@ nav li a {
     margin: 0;
 }
 
-/*----------------------------------------------------- Activity Schedule Section -----*/
+/*----- index.html ------------------------------------ Activity Schedule Section -----*/
 
 .activity-schedule {
     background-color: #BEEE62;
@@ -275,7 +274,7 @@ nav li a {
 }
 
 
-/*----------------------------------------------------- Sign Up Section -----*/
+/*----- index.html ------------------------------------ Sign Up Section -----*/
 
 .sign-up-image {
     height: 60vh;
@@ -334,7 +333,7 @@ nav li a {
     border: 0;
 }
 
-/*----------------------------------------------------- Footer -----*/
+/*----- index.html ------------------------------------ Footer -----*/
 
 footer {
     background-color: #BEEE62;
@@ -399,7 +398,7 @@ footer p {
     -o-transition: all 0.75s ease-in-out;
 }
 
-/*----------------------------------------------------- Sign Up Modal -----*/
+/*----- index.html ------------------------------------ Sign Up Modal -----*/
 
 .modal-content {
     background-color: #113CF3;
@@ -487,7 +486,7 @@ footer p {
     border: 0;
 }
 
-/*----------------------------------------------------- Sizing -----*/
+/*----------------------------------------------------- Bootstrap Sizing -----*/
 
 .row {
     margin: 0;
@@ -506,7 +505,7 @@ ul {
 }
 
 /*----------------------------------------------------- events.html -----*/
-/*----------------------------------------------------- Events -----*/
+/*----- events.html ------------------------------------ Events -----*/
 
 .events-image { 
     height: 90vh;
@@ -533,7 +532,7 @@ ul {
     letter-spacing: 3px;
 }
 
-/*----------------------------------------------------- About Events Section -----*/
+/*----- events.html ------------------------------------ About Events Section -----*/
 
 .about-events {
     background-color: #113CF3;
@@ -603,7 +602,7 @@ ul {
     border: 0;
 }
 
-/*----------------------------------------------------- Events Listing One Section -----*/
+/*----- events.html ------------------------------------ Events Listing One Section -----*/
 
 .event-one {
     background-color: #BEEE62;
@@ -725,7 +724,7 @@ ul {
     padding: 20px 30px;
 }
 
-/*----------------------------------------------------- Events Listing Two Section -----*/
+/*----- events.html ------------------------------------ Events Listing Two Section -----*/
 
 .event-two {
     background-color: #113CF3;
@@ -851,7 +850,7 @@ ul {
 
 @media only screen and (min-width: 576px) {
 /*----------------------------------------------------- index.html -----*/
-/*----------------------------------------------------- Hero Image Section -----*/
+/*----- index.html ------------------------------------ Hero Image Section -----*/
 
 .hero-text h1 {
     font-size: 48px;
@@ -861,7 +860,7 @@ ul {
     font-size: 24px;
 }
 
-/*----------------------------------------------------- About Us Section -----*/
+/*----- index.html ------------------------------------ About Us Section -----*/
 
 .about-us {
     padding: 48px;
@@ -887,7 +886,7 @@ ul {
     padding: 12px 0;
 }
 
-/*----------------------------------------------------- Testimonials Section -----*/
+/*----- index.html ------------------------------------ Testimonials Section -----*/
 
 .testimonials {
     padding: 48px;
@@ -903,7 +902,7 @@ ul {
     padding: 12px 0;
 }
 
-/*----------------------------------------------------- Activity Schedule Section -----*/
+/*----- index.html ------------------------------------ Activity Schedule Section -----*/
 
 .activity-schedule {
     padding: 48px;
@@ -940,7 +939,7 @@ ul {
     font-size: 24px;
 }
 
-/*----------------------------------------------------- Sign Up Section -----*/
+/*----- index.html ------------------------------------ Sign Up Section -----*/
 
 .sign-up-text {
     margin: 48px;
@@ -958,7 +957,7 @@ ul {
     font-size: 24px;
 }
 
-/*----------------------------------------------------- Footer -----*/
+/*----- index.html ------------------------------------ Footer -----*/
 
 footer h3 {
     font-size: 24px;
@@ -974,7 +973,7 @@ footer p {
     font-size: 24px;
 }
 
-/*----------------------------------------------------- Sign Up Modal -----*/
+/*----- index.html ------------------------------------ Sign Up Modal -----*/
 
 .modal-title {
     font-size: 30px;
@@ -1001,13 +1000,13 @@ footer p {
 }
 
 /*----------------------------------------------------- events.html -----*/
-/*----------------------------------------------------- Events -----*/
+/*----- events.html ------------------------------------ Events -----*/
 
 .events-text h1 {
     font-size: 48px;
 }
 
-/*----------------------------------------------------- About Events Section -----*/
+/*----- events.html ------------------------------------ About Events Section -----*/
 
 .about-events {
     padding: 48px;
@@ -1036,7 +1035,7 @@ footer p {
     font-size: 24px;
 }
 
-/*----------------------------------------------------- Events Listing One Section -----*/
+/*----- events.html ------------------------------------ Events Listing One Section -----*/
 
 .event-one {
     padding: 48px;
@@ -1090,7 +1089,7 @@ footer p {
     padding: 36px 0;
 }
 
-/*----------------------------------------------------- Events Listing Two Section -----*/
+/*----- events.html ------------------------------------ Events Listing Two Section -----*/
 
 .event-two img {
     padding: 36px 0;
@@ -1148,13 +1147,13 @@ footer p {
 
 @media only screen and (min-width: 768px) {
 /*----------------------------------------------------- index.html -----*/
-/*----------------------------------------------------- Navbar -----*/
+/*----- index.html ------------------------------------ Navbar -----*/
 
 .navbar > a {
     font-size: 36px;
 }
 
-/*----------------------------------------------------- About Us Section -----*/
+/*----- index.html ------------------------------------ About Us Section -----*/
 
 .about-us h3 {
     padding: 24px;
@@ -1164,25 +1163,25 @@ footer p {
     padding: 18px;
 }
 
-/*----------------------------------------------------- Testimonials -----*/
+/*----- index.html ------------------------------------ Testimonials -----*/
 
 .testimonials p {
     padding: 18px;
 }
 
-/*----------------------------------------------------- Activity Schedule -----*/
+/*----- index.html ------------------------------------ Activity Schedule -----*/
 
 .activity-schedule h3 {
     padding: 24px;
 }
 
-/*----------------------------------------------------- Sign Up Section -----*/
+/*----- index.html ------------------------------------ Sign Up Section -----*/
 
 .sign-up-text h3 {
     padding: 24px;
 }
 
-/*----------------------------------------------------- Footer -----*/
+/*----- index.html ------------------------------------ Footer -----*/
 
 footer {
     text-align: left;
@@ -1193,7 +1192,7 @@ footer {
 }
 
 /*----------------------------------------------------- events.html -----*/
-/*----------------------------------------------------- About Events -----*/
+/*----- events.html ------------------------------------ About Events -----*/
 
 .about-events p {
     padding: 18px;
@@ -1203,7 +1202,7 @@ footer {
     padding: 24px;
 }
 
-/*----------------------------------------------------- Events Listing One Section -----*/
+/*----- events.html ------------------------------------ Events Listing One Section -----*/
 
 .event-one p {
     padding: 18px;
@@ -1221,7 +1220,7 @@ footer {
     padding: 18px;
 }
 
-/*----------------------------------------------------- Events Listing Two Section -----*/
+/*----- events.html ------------------------------------ Events Listing Two Section -----*/
 
 .event-two p {
     padding: 18px;
@@ -1243,14 +1242,14 @@ footer {
 
 @media only screen and (min-width: 992px) {
 /*----------------------------------------------------- index.html -----*/
-/*----------------------------------------------------- Sign Up Section -----*/
+/*----- index.html ------------------------------------ Sign Up Section -----*/
 
 .sign-up-image {
     height: 90vh;
 }
 
-/*----------------------------------------------------- events.html -----*/
-/*----------------------------------------------------- Events Listing One Section -----*/
+/*------------------------------------------------------ events.html -----*/
+/*----- events.html ------------------------------------ Events Listing One Section -----*/
 
 .event-one table {
     width: 90%;
@@ -1262,7 +1261,7 @@ footer {
     padding: 36px 18px;
 }
 
-/*----------------------------------------------------- Events Listing Two Section -----*/
+/*----- events.html ------------------------------------ Events Listing Two Section -----*/
 
 .event-two table {
     width: 90%;
@@ -1279,7 +1278,7 @@ footer {
 
 @media only screen and (min-width: 1200px) {
 /*----------------------------------------------------- index.html -----*/
-/*----------------------------------------------------- Activity Schedule -----*/
+/*----- index.html ------------------------------------ Activity Schedule -----*/
 
 .activity-schedule table {
     width: 90%;
