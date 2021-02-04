@@ -16,12 +16,35 @@ This site has been created to help promote Junior Club and to allow parents of t
 ---
 
 - [UX](#ux)
+    - [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [User Stories](#user-stories)
+    - [Wireframes](#wireframes)
+    - [Surface](#surface)
 - [Features](#features)
+    - [Navigation Bar](#navigation-bar)
+    - [Home Page](#home-page)
+    - [Events Page](#events-page)
+    - [Gallery Page](#gallery-page)
+    - [Future Features](#future-features)
 - [Tecnologies used](#technologies-used)
 - [Testing](#testing)
+    - [Functionality Testing](#functionality-testing)
+    - [Compatibility Testing](#compatibility-testing)
+    - [User Story Testing](#user-story-testing)
+    - [Issues and bugs](#issues-and-bugs)
+    - [Performance Testing](#performance-testing)
+    - [Code Validation](#code-validation)
 - [Deployment](#deployment)
 - [Credits](#credits)
+    - [Learning resources and styling ideas](#learning-resources-and-styling-ideas)
+    - [Code](#code)
+    - [Images Used](#images-used)
 - [Other Information](#other-information)
+    - [Git commits](#git-commits)
+    - [Wireframes Design Changes](#wireframe-design-changes)
+    - [Social Links](#social-links)
+    - [Reasons for coding format](#reasons-for-coding-format)
 - [Project Screenshots](#project-screenshots)
 
 ---
@@ -170,6 +193,11 @@ The website consists on 3 pages home, events and gallery. The websites features 
 * Contact information for the organisers.
 * Image from the organiser showcasing their events or and athlete that has attended.
 
+### Gallery Page
+
+* Cleary defined symmetrical photos.
+* Photos per page width changes depending on screen width.
+
 ### Future Features
 
 * Results Page - A page users can visit to see results of recent events.
@@ -187,35 +215,35 @@ Back to [Table of Contents](#table-of-contents)
 
 ---
 
-### HTML5
+#### HTML5
 
 * Used as a structural language.
 
-### CSS
+#### CSS
 
 * Used as a style language.
 
-### Bootstrap
+#### Bootstrap
 
 * [Boostrap](https://getbootstrap.com/) Version 4.3.1 used as a CSS framework to aid responsive design. A mobile first approach was taken.
 
-### Font Awesome
+#### Font Awesome
 
 * [Font Awesome](https://fontawesome.com/) was used for social links, skiing and snowboarding headings and for table headings.
 
-### Google Fonts
+#### Google Fonts
 
 * [Google Fonts](https://fonts.google.com/) used as a font resource.
 
-### GitHub
+#### GitHub
 
 * [GitHub](https://github.com/) was used as the sites repository.
 
-### Gitpod
+#### Gitpod
 
 * [Gitpod](https://gitpod.io/workspaces/) was used as a development hosting platform.
 
-### Wireframes
+#### Wireframes
 
 * [Balsamiq.com](https://balsamiq.com/) was used as a wireframe tool to sketch the structure of the site.
 
@@ -230,11 +258,67 @@ Back to [Table of Contents](#table-of-contents)
 
 ### Functionality Testing
 
-I used google chrome developer tools throughtout the project to text everything from spacing to repsposiveness.
+I used google chrome developer tools throughtout the project to text everything as I was working on it.
 
-* Tested responsiveness regularly and fixed any issues as they arose.
-* Tested all links internal and external.
-* Tested contrasts between text and background.
+Tested:
+
+#### Responsiveness
+
+Expected - The site is expected to respond to different screen sizes.
+
+Testing - Tested this by expanding and contracting the windown size inside google inspect.
+
+Result- Site responded as expected to all screen sizes 320px and up.
+
+#### Navbar links
+
+Expected - Navbar links and title will direct to the respective page and the title will act as an additional home link.
+
+Testing - Clicked on all the links inside each page.
+
+Result - All navbar elements working.
+
+#### Test text to background colour contrast
+
+Expected - it's expected that their is a clear contrast between text colour and background color throught the site.
+
+Testing - Used google select to hover over all texts and check contrast is ticked. Also read everything to check it was all clearly visable.
+
+Result - All text has a good contrast between itself and background color.
+
+#### Buttons
+
+Expected - Buttons will direct the user to the desired outcome in this case a pdf document for the download now button and a sign up modal for the sign up button.
+
+Testing - Clicked on the buttons to see what happened. Also checked the :hover class was working when moving on and off the buttons.
+
+Result- All buttons responded as expected.
+
+#### Social Links
+
+Expected - To be directed to the respective site.
+
+Testing - Clicked on all social links to see where they linked to. Also checked the :hover pseudo element is working by hovering on and off the links.
+
+Result - All links responded as expected and linked to the appropriate sites.
+
+#### Event Contact Links
+
+Expected - To be linked to the event organisers site.
+
+Testing - Clicked on a link to see where it linked to. Also checked the :hover pseudo element is working by hovering on and off the link.
+
+Result - Links Respond as expected and link to the event organiser sites.
+
+#### Tested Navbar responsiveness
+
+Expected - Navbar items will stay inline fit within the page.
+
+Testing - Tested this by expanding and contracting the windown size inside google inspect.
+
+Result - Did not respond as expected on screen widths from 576px to 608px. The navbar links would squash the Junior Club title due to lack of spacing.
+
+Fix - Changed the nav links padding to allow for more room.
 
 ### Compatibility Testing
 
@@ -307,9 +391,11 @@ This site was tested across the following devices and browsers:
 ![Junior Club Site Event Listing Section](assets/screenshots/finshed_screenshot11.png)
 ![Junior Club Site Event Listing Section](assets/screenshots/finshed_screenshot12.png)
 
-### Issues found and fixes
+### Issues and bugs
 
-All issues were found using google inspect and the responsive design tools.
+All issues and bugs were found using google inspect and the responsive design tools. 
+
+Below I have explaing the issue and how they were resolved:
 
 * Overflowing Content triggering a x axis scroll bar.
 
@@ -461,7 +547,7 @@ Below are the exaples of code I have copied to complete this project:
 * [CSS-Tricks - Full Page Background Image](https://css-tricks.com/perfect-full-page-background-image/)
     * This was used to ensure the bckgroun images are loaded correctly across devices.
 
-### Images
+### Images Used
 
 [Unsplash Images](https://unsplash.com/) 
 
@@ -519,6 +605,10 @@ Below I have listed the major change to the finish project structure from the wi
 ### Social links
 
 The social links are linked to the social platforms home page until accounts for Junior Club are set up.
+
+### Reasons for coding format
+
+I have chosen to write slightly more CSS than is need as I have tried give every HTML section its own independent section of CSS instead of just styling all similar elements like the h2, h3, i and p elements once. I have done this to help maintain the structure and styling of the site even if a section is drastically changed or deleted in the future. This will also help if sections are to be moved to a different page or a different repository as you can cut out the section in HTML and the respective section in CSS.
 
 Back to [Table of Contents](#table-of-contents)
 
