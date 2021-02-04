@@ -1147,10 +1147,48 @@ footer p {
 
 @media only screen and (min-width: 768px) {
 /*----------------------------------------------------- index.html -----*/
+/*----------------------------------------------------- Navbar -----*/
+
+.navbar > a {
+    font-size: 36px;
+}
+
+/*----------------------------------------------------- About Us Section -----*/
+
+.about-us h3 {
+    padding: 24px;
+}
+
+.about-us p {
+    padding: 18px;
+}
+
+/*----------------------------------------------------- Testimonials -----*/
+
+.testimonials p {
+    padding: 18px;
+}
+
+/*----------------------------------------------------- Activity Schedule -----*/
+
+.activity-schedule h3 {
+    padding: 24px;
+}
+
+/*----------------------------------------------------- Sign Up Section -----*/
+
+.sign-up-text h3 {
+    padding: 24px;
+}
+
 /*----------------------------------------------------- Footer -----*/
 
 footer {
     text-align: left;
+}
+
+.social-links li a i {
+    padding: 15px;
 }
 
 }
