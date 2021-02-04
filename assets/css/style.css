@@ -836,8 +836,8 @@ ul {
     margin: 0;
 }
 
-/*----------------------------------------------------- events.html -----*/
-/*----- events.html ------------------------------------ Events -----*/
+/*----------------------------------------------------- gallery.html -----*/
+/*----- gallery.html ------------------------------------ Gallery -----*/
 
 .gallery-image { 
     height: 90vh;
@@ -862,6 +862,24 @@ ul {
     text-align: center;
     font-family: "Architects Daughter", sans-serif;
     letter-spacing: 3px;
+}
+
+/*----- gallery.html ------------------------------------ Gallery Photos -----*/
+
+.gallery-photos {
+    background-color: #113CF3;
+    padding: 30px 0;
+}
+
+.gallery-photo {
+    height: 80vw;
+    width: 80vw;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*----------------------------------------------------- Media Queries -----*/
@@ -1161,6 +1179,14 @@ footer p {
     font-size: 18px;
 }
 
+/*------------------------------------------------------- gallery.html -----*/
+/*----- gallery.html ------------------------------------ Gallery Photos -----*/
+
+.gallery-photo {
+    height: 40vw;
+    width: 40vw;
+}
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -1256,6 +1282,14 @@ footer {
     padding: 18px;
 }
 
+/*------------------------------------------------------- gallery.html -----*/
+/*----- gallery.html ------------------------------------ Gallery Photos -----*/
+
+.gallery-photo {
+    height: 26.7vw;
+    width: 26.7vw;
+}
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -1291,6 +1325,13 @@ footer {
     padding: 36px 18px;
 }
 
+/*------------------------------------------------------- gallery.html -----*/
+/*----- gallery.html ------------------------------------ Gallery Photos -----*/
+
+.gallery-photo {
+    height: 20vw;
+    width: 20vw;
+}
 
 }
 
