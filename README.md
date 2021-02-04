@@ -41,7 +41,7 @@ The primary goal of the Junior Club website is to provide parents information re
 #### As a new customer:
 
 * I would like to find out what the club is about.
-* I wish to know how to sign up.
+* I wish to know how to join the group.
 * I would like to know how much it costs and when the session are.
 * I would like to read customer reviews or testimonials.
 
@@ -203,8 +203,86 @@ This site was tested across the following devices and browsers:
 * Hp Laptop using windows 10 home
 * Honor 20 pro mobile phone
 
-#### browsers
+#### Browsers
 
 * Google Chrome
 * Mozila Fox
 * Microsoft Edge
+
+### User Story Testing
+
+#### As the Camp Lead Coach and website owner:
+
+* I would like to present the club to potential new custom in a clear and visually pleasing way.
+    * The sites has clearly defined sections and is responsponsive.
+* Keep exsiting members up to date with events and camps.
+    * The Activity Schedule and Events page are clearly label and defined making it easy to find out about events and camps.
+* Increase our contact database.
+    * There is two places on the site with a call to action and a sign up modal to try and encourage users to sign up.
+* Post weekly activities.
+    * Activity Schedule clearly formatted to make adding new information quick and easy.
+
+#### As a new customer:
+
+* I would like to find out what the club is about.
+    * About Us section provides all important information regarding the club.
+* I wish to know how to join the group.
+    * How to join is clearly labeled and explained inside the about us section.
+* I would like to know how much it costs and when the session are.
+    * Session information is clearly labeled and explained inside the about us section.
+* I would like to read customer reviews or testimonials.
+    * Testimonials section is clearly defined and easy to find in the homw page.
+
+#### As a returning customer:
+
+* I would like to check what activities are coming up.
+    * The Activity Schedule section has the upcoming scedule and events listed and if users would like a more complete list there is a download button where they can download the activity schedule pdf.
+* I would like to view upcoming events and camps.
+    * Events page lists upcoming events and camps and they are sectioned seperately with all the iformation regarding an event within the section.
+* I wish to sign up to a newsletter to keep up to date.
+    * There is two places that a user can sign up, one on the home page and one on the events page. Both has call to actions and a sign up button.
+
+### Issues found and fixes
+
+All issues were found using google inspect and the responsive design tools.
+
+* Overflowing Content triggering a x axis scroll bar.
+
+This was happening due to Bootstraps .row margin having a -15px setting. To correct this I styled the .row class with a margin of 0. 
+
+* Invisible hamburger menu.
+
+The hamburger menu was active as you could see it highlight on google inpect when hovered over. To fix this the navbar-dark class was added to make this visable. Bootstrap CDN helped find the solution.
+
+* Download button wasn't responding with colour change until the letters were hovered over.
+
+This was an issue as clicking the button did nothing but clicking the letters linked to the pdf. This was fixed by adding padding to the a element to cover the button.
+
+* Navbar title 'Junior Club' wasn't linking back to the home page.
+
+This issue was caused by a typo in the href element.
+
+* 3rd testimonials quote was displaying out of line on both the x and y axis.
+
+This was a due to the class being set to col-sm-12. This was corrected by changing the class to col-12.
+
+* Fixed issue where html wasn't passing validation as a element was inside button element.
+
+Moved the classes from the button element to the a element then removed button element. Moved all the atributes from .activity-schedule button in css into the .activity-schedule a and a:hover classes.
+
+Below are the before and after screenshots:
+
+![HTML Validator Fail Image 1](assets/screenshots/html_validation_error_img1.png)
+![HTML Validator Fail Image 2](assets/screenshots/html_validation_error_img2.png)
+![HTML Validator Correction](assets/screenshots/html_validation_error_img3.png)
+
+### Performance Testing
+
+![Lighthouse Performance Screenshot](assets/screenshots/performance_screenshot1.png)
+
+### Code Validation
+
+At the end of the project I used the validators below to validate the HTML and CSS code.
+
+* [W3C HTML Validator](https://validator.w3.org/#validate_by_input)
+* [W3c CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
