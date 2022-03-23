@@ -1,0 +1,735 @@
+/*----------------------------------------------------- index.html -----*/
+/*----- index.html ------------------------------------ Navbar -----*/
+
+.navbar {
+    background-color: #CE0E2D;
+    padding: 8px 15px;
+}
+
+.navbar > a {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav li a {
+    font-size: 18px;
+    margin: 8px;
+}
+
+.navbar a {
+    color: #fff;
+    font-family: "Architects Daughter", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 8px;
+}
+
+.active {
+    border-bottom: 5px solid #fff;
+}
+
+.nav-item a:hover {
+    border-bottom: 5px solid #202945;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:active {
+    outline: none;
+}
+
+.navbar-toggler:not(:active) {
+    outline: none;
+}
+
+.navbar-toggle-bars {
+    color: #202945;
+    font-size: 24px;
+}
+
+/*----- index.html ------------------------------------ Activity Schedule Section -----*/
+
+.activity-schedule {
+    background-color: #cbd514;
+    padding: 30px 0;
+}
+
+.activity-schedule h2 {
+    color: #202945;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 20px 30px;
+    margin: 0;
+}
+
+.activity-schedule-icon {
+    color: #202945;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+.activity-schedule h3 {
+    color: #202945;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+    margin: 0;
+}
+
+.activity-schedule table {
+    background-color: #202945;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.activity-schedule td, .activity-schedule th {
+    color: #fff;
+    text-align: center;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-top: 3px solid #cbd514;
+    border-bottom: 3px solid #cbd514;
+}
+
+.activity-schedule-download {
+    text-align: center;
+}
+
+.activity-schedule a {
+    background-color: #CE0E2D;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 0;
+}
+
+.activity-schedule a:hover {
+    background-color: #CE0E2D;
+    color: #cbd514;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Chicle", sans-serif;
+    letter-spacing: 3px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 0;
+}
+
+
+
+/*----- index.html ------------------------------------ Footer -----*/
+
+footer {
+    background-color: #202945;
+    text-align: center;
+    padding: 10px;
+}
+
+footer h3 {
+    color: #CE0E2D;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 12px;
+    margin: 0;
+}
+
+.footer-icon {
+    color: #CE0E2D;
+    display: inline-block;
+    padding: 12px;
+}
+
+footer p {
+    color: #fff;
+    font-family: "Chicle", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 0;
+}
+
+.social-links li a i {
+    color: #202945;
+    background-color: #CE0E2D;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    padding: 13px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.social-links li a i:hover {
+    color: #CE0E2D;
+    background-color: #202945;
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-links li a i:not(:hover) {
+    color: #202945;
+    background-color: #CE0E2D;
+    transform: scale(1, 1);
+    transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    -o-transition: all 0.75s ease-in-out;
+}
+
+/*----------------------------------------------------- Bootstrap Sizing -----*/
+
+.row {
+    margin: 0;
+}
+
+.col-12 {
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+/*----------------------------------------------------- events.html -----*/
+/*----- events.html ------------------------------------ Events -----*/
+
+.events-image { 
+    height: 90vh;
+    background: url(../images/events_img1.jpg) no-repeat center center fixed;
+    /*--- Copied from CSS-Tricks. Please see README Credits. ---*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.events-text h1 {
+    background-color: rgba(206, 14, 45, 1);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-family: "Architects Daughter", sans-serif;
+    letter-spacing: 3px;
+}
+
+/*----------------------------------------------------- Media Queries -----*/
+
+@media only screen and (min-width: 576px) {
+/*----------------------------------------------------- index.html -----*/
+/*----- index.html ------------------------------------ Hero Image Section -----*/
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text h3 {
+    font-size: 24px;
+}
+
+/*----- index.html ------------------------------------ About Us Section -----*/
+
+.about-us {
+    padding: 48px;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    padding: 36px 0;
+}
+
+.about-us h3 {
+    font-size: 24px;
+    padding: 18px 0;
+}
+
+.about-us i {
+    font-size: 24px;
+    margin-bottom: -12px;
+}
+
+.about-us p {
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+/*----- index.html ------------------------------------ Testimonials Section -----*/
+
+.testimonials {
+    padding: 48px;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    padding: 36px 0;
+}
+
+.testimonials p {
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+/*----- index.html ------------------------------------ Activity Schedule Section -----*/
+
+.activity-schedule {
+    padding: 48px;
+}
+
+.activity-schedule h2 {
+    font-size: 36px;
+    padding: 36px 0;
+}
+
+.activity-schedule-icon {
+    font-size: 24px;
+    margin-bottom: -12px;
+}
+
+.activity-schedule h3 {
+    font-size: 24px;
+    padding: 18px 0;
+}
+
+.activity-schedule table {
+    margin-bottom: 36px;
+}
+
+.activity-schedule td, .activity-schedule th {
+    font-size: 18px;
+}
+
+.activity-schedule button {
+    font-size: 24px;
+}
+
+.activity-schedule button:hover {
+    font-size: 24px;
+}
+
+/*----- index.html ------------------------------------ Sign Up Section -----*/
+
+.sign-up-text {
+    margin: 48px;
+}
+
+.sign-up-text h3 {
+    font-size: 24px;
+}
+
+.sign-up-text button {
+    font-size: 24px;
+}
+
+.sign-up-text button:hover {
+    font-size: 24px;
+}
+
+/*----- index.html ------------------------------------ Footer -----*/
+
+footer h3 {
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+.social-links li a i {
+    height: 55px;
+    width: 55px;
+    font-size: 24px;
+}
+
+/*----- index.html ------------------------------------ Sign Up Modal -----*/
+
+.modal-title {
+    font-size: 30px;
+}
+
+.modal-body p {
+    font-size: 18px;
+}
+
+.modal-body label {
+    font-size: 24px;
+}
+
+.form-group small {
+    font-size: 18px;
+}
+
+.modal-sign-up-btn button {
+    font-size: 24px;
+}
+
+.modal-sign-up-btn button:hover {
+    font-size: 24px;
+}
+
+/*----------------------------------------------------- events.html -----*/
+/*----- events.html ------------------------------------ Events -----*/
+
+.events-text h1 {
+    font-size: 48px;
+}
+
+/*----- events.html ------------------------------------ About Events Section -----*/
+
+.about-events {
+    padding: 48px;
+}
+
+.about-events h2 {
+    font-size: 36px;
+    padding: 36px 0;
+}
+
+.about-events p {
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.events-sign-up-text h3 {
+    font-size: 24px;
+    padding: 18px 0;
+}
+
+.events-sign-up-text button {
+    font-size: 24px;
+}
+
+.events-sign-up-text button:hover {
+    font-size: 24px;
+}
+
+/*----- events.html ------------------------------------ Events Listing One Section -----*/
+
+.event-one {
+    padding: 48px;
+}
+
+.event-one h2 {
+    font-size: 36px;
+    padding: 36px 0;
+}
+
+.event-one table {
+    margin-bottom: 36px;
+}
+
+.event-one td, .event-one th {
+    font-size: 18px;
+}
+
+.event-one p {
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.event-one h3 {
+    font-size: 24px;
+    padding: 18px 0;
+}
+
+.event-one-contact-info p {
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.event-one-contact-icon {
+    margin: 0;
+}
+
+.event-one-contact-info a {
+    font-size: 18px;
+}
+
+.event-one-contact-info a:hover {
+    font-size: 18px;
+}
+
+.event-one-contact-info a:not(:hover) {
+    font-size: 18px;
+}
+
+.event-one img {
+    padding: 36px 0;
+}
+
+/*----- events.html ------------------------------------ Events Listing Two Section -----*/
+
+.event-two img {
+    padding: 36px 0;
+}
+
+.event-two {
+    padding: 48px;
+}
+
+.event-two h2 {
+    font-size: 36px;
+    padding: 36px 0;
+}
+
+.event-two table {
+    margin-bottom: 36px;
+}
+
+.event-two td, .event-two th {
+    font-size: 18px;
+}
+
+.event-two p {
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.event-two h3 {
+    font-size: 24px;
+    padding: 18px 0;
+}
+
+.event-two-contact-info p {
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.event-two-contact-icon {
+    margin: 0;
+}
+
+.event-two-contact-info a {
+    font-size: 18px;
+}
+
+.event-two-contact-info a:hover {
+    font-size: 18px;
+}
+
+.event-two-contact-info a:not(:hover) {
+    font-size: 18px;
+}
+
+/*------------------------------------------------------- gallery.html -----*/
+/*----- gallery.html ------------------------------------ Gallery Photos -----*/
+
+
+.gallery-text h1 {
+    font-size: 48px;
+}
+
+.gallery-photos h3 {
+    font-size: 24px;
+    padding: 18px 0;
+}
+
+.gallery-photo {
+    height: 40vw;
+    width: 40vw;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+/*----------------------------------------------------- index.html -----*/
+/*----- index.html ------------------------------------ Navbar -----*/
+
+.navbar > a {
+    font-size: 36px;
+}
+
+/*----- index.html ------------------------------------ About Us Section -----*/
+
+.about-us h3 {
+    padding: 24px;
+}
+
+.about-us p {
+    padding: 18px;
+}
+
+/*----- index.html ------------------------------------ Testimonials -----*/
+
+.testimonials p {
+    padding: 18px;
+}
+
+/*----- index.html ------------------------------------ Activity Schedule -----*/
+
+.activity-schedule h3 {
+    padding: 24px;
+}
+
+/*----- index.html ------------------------------------ Sign Up Section -----*/
+
+.sign-up-text h3 {
+    padding: 24px;
+}
+
+/*----- index.html ------------------------------------ Footer -----*/
+
+footer {
+    text-align: left;
+}
+
+.social-links li a i {
+    padding: 15px;
+}
+
+/*----------------------------------------------------- events.html -----*/
+/*----- events.html ------------------------------------ About Events -----*/
+
+.about-events p {
+    padding: 18px;
+}
+
+.about-events h3 {
+    padding: 24px;
+}
+
+/*----- events.html ------------------------------------ Events Listing One Section -----*/
+
+.event-one p {
+    padding: 18px;
+}
+
+.event-one h3 {
+    padding: 24px;
+}
+
+.event-one-contact-icon {
+    margin-left: 18px;
+}
+
+.event-one-contact-info p {
+    padding: 18px;
+}
+
+/*----- events.html ------------------------------------ Events Listing Two Section -----*/
+
+.event-two p {
+    padding: 18px;
+}
+
+.event-two h3 {
+    padding: 24px;
+}
+
+.event-two-contact-icon {
+    margin-left: 18px;
+}
+
+.event-two-contact-info p {
+    padding: 18px;
+}
+
+/*------------------------------------------------------- gallery.html -----*/
+/*----- gallery.html ------------------------------------ Gallery Photos -----*/
+
+.gallery-photos h3 {
+    padding: 24px;
+}
+
+.gallery-photo {
+    height: 26.7vw;
+    width: 26.7vw;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+/*----------------------------------------------------- index.html -----*/
+/*----- index.html ------------------------------------ Sign Up Section -----*/
+
+.sign-up-image {
+    height: 90vh;
+}
+
+/*------------------------------------------------------ events.html -----*/
+/*----- events.html ------------------------------------ Events Listing One Section -----*/
+
+.event-one table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-one img {
+    padding: 36px 18px;
+}
+
+/*----- events.html ------------------------------------ Events Listing Two Section -----*/
+
+.event-two table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-two img {
+    padding: 36px 18px;
+}
+
+/*------------------------------------------------------- gallery.html -----*/
+/*----- gallery.html ------------------------------------ Gallery Photos -----*/
+
+.gallery-photo {
+    height: 20vw;
+    width: 20vw;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+/*----------------------------------------------------- index.html -----*/
+/*----- index.html ------------------------------------ Activity Schedule -----*/
+
+.activity-schedule table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activity-schedule td, .activity-schedule th {
+    padding: 4px;
+}
+
+}
